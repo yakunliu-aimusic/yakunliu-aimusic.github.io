@@ -14,7 +14,7 @@ sections:
       text: |-
         <section class="cv-three-column" aria-label="Interests, Technical Skills, and Honors">
           <article class="cv-column-card">
-            <h2>Interests</h2>
+            <h2><span class="cv-heading-icon" aria-hidden="true">✦</span>Interests</h2>
             <ul>
               <li>Deep Learning-Based Symbolic Music Generation</li>
               <li>Real-Time Human-Computer Interaction AI Systems</li>
@@ -24,7 +24,7 @@ sections:
             </ul>
           </article>
           <article class="cv-column-card">
-            <h2>Technical Skills</h2>
+            <h2><span class="cv-heading-icon" aria-hidden="true">⌘</span>Technical Skills</h2>
             <ul>
               <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C</li>
               <li><strong>Music Software:</strong> Cubase, Ableton Live, Max/MSP/Jitter</li>
@@ -33,7 +33,7 @@ sections:
             </ul>
           </article>
           <article class="cv-column-card">
-            <h2>Honors</h2>
+            <h2><span class="cv-heading-icon" aria-hidden="true">◇</span>Honors</h2>
             <ul>
               <li>National Encouragement Scholarship (2020, 2021, 2022)</li>
               <li>First-class Scholarship (2022)</li>
@@ -47,7 +47,7 @@ sections:
   - block: markdown
     id: publications
     content:
-      title: 代表性学术论文
+      title: "▣ Selected Publications"
       subtitle: Publications
       text: |-
         **Liu, Y., Liu, D., & Jin, Z. (2026). _Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches_. [link]**
@@ -80,7 +80,7 @@ sections:
   - block: markdown
     id: projects
     content:
-      title: 项目与科研经历
+      title: "▸ Project & Research Experience"
       subtitle: Project / Research Experience
       text: |-
         ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
