@@ -1,19 +1,15 @@
 ---
-title: Home
+title: Author
 draft: false
 sections:
-  - block: resume-biography-3
-    content:
-      username: me
-      button:
-        text: 下载个人CV
-        url: uploads/resume.pdf
-
   - block: markdown
-    id: about
+    id: author-note
     content:
-      title: 个人简介
-      subtitle: About Me
+      title: 刘亚坤 / Yakun Liu
+      subtitle: Electronic Music Composition · AI Music · New Media Art
       text: |-
-        刘亚坤是哒哒哒实打实的
+        本页作为作者档案入口。完整个人简介、研究兴趣、论文与项目经历请查看首页各栏目。
+    design:
+      columns: '1'
+      css_class: cv-text-section cv-left-layout
 ---
