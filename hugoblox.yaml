@@ -6,3 +6,18 @@ deploy:
 template:
   id: "academic-cv"
   name: "Academic CV"
+
+# 消除主题/字体/图标警告
+ignoreLogs:
+  - missing-icon-brands-huggingface
+  - missing-icon-brands-github
+  - sections-none-/
+  - FONT PACK ERROR
+  - THEME ENGINE ERROR
+  - THEME ERROR
+
+# 修复主题配置
+hugoblox:
+  theme:
+    mode: system
+    pack: native

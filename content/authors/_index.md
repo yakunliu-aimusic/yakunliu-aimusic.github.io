@@ -1,15 +1,78 @@
+# data/authors/me.yaml
 ---
-title: Home
-draft: false
-sections:
-  - block: markdown
-    content:
-      title: 个人简介
-      subtitle: About Me
-      text: |-
-        刘亚坤，本科毕业于沈阳音乐学院流行萨克斯（爵士方向）专业，目前于该校攻读电子音乐作曲硕士学位，深耕人工智能音乐生成、实时人机交互系统、音视频跨媒介新媒体艺术等交叉领域研究。
-
-        兼具爵士器乐演奏与电子音乐创作功底，熟练掌握Python、C语言编程及PyTorch、CNN、GRU等深度学习框架，精通Max/MSP、Ableton、Cubase等专业音频软件，擅长XR场景搭建、全息投影、环绕声设计与5G+局域网远程演出系统开发。
-
-        在校期间多次斩获国家励志奖学金、校级一等奖学金，以第一作者身份发表多篇学术论文，研究方向覆盖算法作曲理论、克拉尼图案声光映射、十二音与爵士和声对比、5G-VR跨地域远程音乐会、古琴非遗AI数字化复原等课题。先后作为项目负责人或核心成员参与校级科研课题、教育部产学研项目及“挑战杯”创业项目，主导研发基于GRU的实时AI即兴交互系统、诸城派古琴深度学习数字化复原平台，在算法模型落地、新媒体展演工程、传统音乐数字化保护等方向产出多项落地成果，持续探索人工智能、数字媒体与传统音乐、现代电子作曲的跨界融合创新。
+name: 刘亚坤
+role: 电子音乐作曲硕士 | AI音乐研究者
+avatar_filename: avatar.jpg
+bio: 沈阳音乐学院电子音乐作曲硕士，本科爵士萨克斯专业，深耕AI音乐生成、实时人机交互与音视频跨媒介艺术
+interests:
+  - 人工智能音乐生成
+  - 实时人机交互系统
+  - 克拉尼图案声光映射
+  - 传统音乐AI数字化复原
+  - 5G+VR跨地域远程演出
+education:
+  - course: 电子音乐作曲硕士
+    institution: 沈阳音乐学院
+    year: 2024-至今
+  - course: 流行萨克斯（爵士方向）本科
+    institution: 沈阳音乐学院
+    year: 2020-2024
+awards:
+  - title: 国家励志奖学金
+    date: "2022"
+    description: ""
+  - title: 校级一等奖学金
+    date: "2023"
+    description: ""
+projects:
+  - title: 基于GRU的实时AI即兴交互系统
+    role: 项目负责人
+    start: 2025-03-01
+    end: 2025-12-31
+    summary: |
+      开发基于GRU神经网络的实时音乐即兴交互系统，支持爵士和声进行下的智能伴奏与即兴生成
+  - title: 诸城派古琴深度学习数字化复原平台
+    role: 核心开发者
+    start: 2025-09-01
+    end: 2026-06-30
+    summary: |
+      运用CNN模型对诸城派古琴传统曲谱与音频进行数字化复原，构建非遗音乐AI保护平台
+  - title: Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
+    role: Core Researcher & Lead Developer
+    org: 沈阳音乐学院
+    start: 2025-12-01
+    end: 2026-06-30
+    summary: |
+      University-level research project. Designed interactive XR stage logic, implemented AI interaction workflows, and developed 5.1 surround sound spatialization for live experimental electroacoustic performance. Advisors: Assoc. Prof. Dong Liu and Senior Eng. Hai Luan.
+skills:
+  - name: 编程技能
+    items:
+      - Python
+      - C/C++
+      - PyTorch
+      - TensorFlow
+      - Max/MSP
+  - name: 音乐技术
+    items:
+      - Ableton Live
+      - Cubase
+      - XR场景搭建
+      - 全息投影
+      - 5.1环绕声设计
+  - name: AI模型
+    items:
+      - CNN
+      - GRU
+      - Markov链
+      - RTNeural
+social:
+  - icon: github
+    icon_pack: brands
+    link: https://github.com/yakunliu-aimusic
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com
+  - icon: linkedin
+    icon_pack: brands
+    link: https://linkedin.com
 ---
