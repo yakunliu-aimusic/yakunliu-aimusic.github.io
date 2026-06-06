@@ -38,7 +38,7 @@ links:
     label: "ORCID"
   - icon: "hero/document-arrow-down"
     url: "uploads/resume.pdf"
-    label: "Download CV"
+    label: "CV"
 
 interests: []
 

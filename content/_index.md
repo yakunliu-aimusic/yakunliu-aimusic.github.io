@@ -47,7 +47,7 @@ sections:
   - block: markdown
     id: publications
     content:
-      title: "▣ Selected Publications"
+      title: "✧ Selected Publications"
       subtitle: Publications
       text: |-
         **Liu, Y., Liu, D., & Jin, Z. (2026). _Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches_. [link]**
@@ -80,7 +80,7 @@ sections:
   - block: markdown
     id: projects
     content:
-      title: "▸ Project & Research Experience"
+      title: "✦ Project & Research Experience"
       subtitle: Project / Research Experience
       text: |-
         ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model

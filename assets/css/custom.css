@@ -13,18 +13,15 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex-basis: 100%;
   width: fit-content;
-  margin-top: 0.9rem;
   margin-left: 0;
-  padding: 0.55rem 1rem;
+  padding: 0.2rem 0.45rem;
   border-radius: 999px;
   border: 1px solid rgba(37, 99, 235, 0.22);
   background: rgba(37, 99, 235, 0.08);
   color: rgb(29, 78, 216);
   font-weight: 600;
   text-decoration: none;
-  clear: both;
 }
 
 .cv-resume-details .container,
@@ -102,7 +99,7 @@
 
 .wide-resume-section > div,
 .wide-resume-section .container {
-  margin-left: auto;
+  margin-left: 3rem;
   margin-right: auto;
 }
 
@@ -148,19 +145,19 @@
 .cv-left-layout .section-subheading,
 .cv-left-layout h1,
 .cv-left-layout h2 {
-  width: min(100%, 780px);
-  max-width: 780px;
+  width: min(100%, 880px);
+  max-width: 880px;
   text-align: left;
-  margin-left: 6rem;
+  margin-left: 4rem;
   margin-right: auto;
   justify-content: flex-start;
 }
 
 .cv-left-layout .prose,
 .cv-left-layout .max-w-prose {
-  width: min(100%, 780px);
-  max-width: 780px;
-  margin-left: 6rem;
+  width: min(100%, 880px);
+  max-width: 880px;
+  margin-left: 4rem;
   margin-right: auto;
 }
 
@@ -182,22 +179,25 @@
   .wide-resume-section > div > div:first-child:not(:only-child),
   .wide-resume-section .container > div:first-child:not(:only-child) {
     display: grid;
-    grid-template-columns: minmax(360px, 44%) minmax(420px, 56%);
+    grid-template-columns: minmax(320px, 36%) minmax(620px, 64%);
     align-items: center;
-    column-gap: 4rem;
+    column-gap: 3rem;
+    max-width: 1180px;
+    margin-left: 0;
+    margin-right: auto;
   }
 
   .wide-resume-section > div > div:first-child:not(:only-child) > :first-child,
   .wide-resume-section .container > div:first-child:not(:only-child) > :first-child {
     text-align: left;
-    justify-self: end;
-    max-width: 440px;
+    justify-self: start;
+    max-width: 420px;
   }
 
   .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2),
   .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) {
     justify-self: start;
-    max-width: 560px;
+    max-width: 740px;
   }
 }
 
@@ -212,11 +212,17 @@
   .cv-left-layout h2,
   .cv-left-layout .prose,
   .cv-left-layout .max-w-prose {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 }
 
 @media (max-width: 900px) {
+  .wide-resume-section > div,
+  .wide-resume-section .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .wide-resume-section [class*="grid-cols-2"],
   .cv-three-column {
     grid-template-columns: 1fr;
