@@ -1,15 +1,18 @@
 # Navigation Links
 
 main:
-  - name: Bio
-    url: /
+  - name: About
+    url: /#about
     weight: 10
-  - name: Publications
-    url: /#papers
+  - name: Interests
+    url: /#interests
     weight: 20
+  - name: Publications
+    url: /#publications
+    weight: 30
   - name: Projects
     url: /#projects
-    weight: 30
-  - name: Experience
-    url: experience/
     weight: 40
+  - name: Skills
+    url: /#skills
+    weight: 50

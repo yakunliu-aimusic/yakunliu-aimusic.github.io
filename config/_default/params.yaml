@@ -15,16 +15,16 @@ hugoblox:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Yakun Liu"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Shenyang Conservatory of Music"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "AI Music · Electroacoustic Composition · New Media Art"
     # Site meta description for search engines and social sharing
-    description: "Academic portfolio of Yakun Liu, focusing on AI music generation, electroacoustic composition, real-time human-computer interaction, and audio-visual new media art."
+    description: "Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music, focusing on AI music generation, real-time human-computer interaction systems, audio-visual cross-modal interaction, and new media art."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME

@@ -5,15 +5,15 @@ name:
   display: Yakun Liu
   given: Yakun
   family: Liu
-  alternate: 刘雅琨
+  alternate: 刘亚坤
   pronunciation: ''
   pronouns: ''
 postnominals: []
 status:
-  icon: "🎷"
-role: M.A. Candidate in Electronic Music Composition
+  icon: ""
+role: M.A. Student in Electronic Music Composition
 bio: |
-  Yakun Liu is a graduate student in Electronic Music Composition at Shenyang Conservatory of Music. His research focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, and audio-visual cross-modal interaction for new media art. His creative and technical work bridges electroacoustic composition, AI-assisted music generation, XR performance, VR live streaming, and digital heritage reconstruction.
+  Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music. His work focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, audio-visual cross-modal interaction, and new media art creation.
 
 affiliations:
   - name: Shenyang Conservatory of Music
@@ -26,10 +26,10 @@ links:
 
 interests:
   - Deep Learning-Based Symbolic Music Generation
-  - Real-Time Human-Ccomputer Interaction AI Systems
-  - Audio-Visual Cross-Modal Interaction
-  - New Media Art Creation
-  - Electroacoustic Music Composition
+  - Real-Time Human-Computer Interaction AI Systems
+  - Audio-Visual Cross-Modal Interaction and New Media Creation
+  - Algorithmic Composition and Electroacoustic Music
+  - Digital Heritage Reconstruction of Traditional Chinese Music
 
 education:
   - degree: M.A. in Electronic Music Composition
@@ -37,7 +37,7 @@ education:
     start: 2024-09-01
     end: 2027-06-30
     summary: |
-      Expected graduation in June 2027. GPA: 3.47/4.0.
+      Expected June 2027. GPA: 3.47/4.0.
   - degree: B.A. in Pop Saxophone (Jazz Direction)
     institution: Shenyang Conservatory of Music
     start: 2019-09-01
@@ -49,64 +49,51 @@ experience:
   - role: Principal Researcher
     org: LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
     start: 2026-01-01
-    end: 2026-12-31
     summary: |
-      Led the full independent research project, including engineering architecture design, GRU-based time-series model training, MIDI dataset preprocessing, and real-time performance interaction. Designed a Python/C hybrid architecture with a custom shared-memory mechanism and high-precision timeline synchronization.
+      Led the independent research project, covering GRU-based time-series model training, MIDI dataset preprocessing, and a Python/C hybrid architecture with shared memory and high-precision timeline synchronization.
   - role: Core Researcher
     org: Sonic Structuring · Layered Imaging · Collaborative Resonance
     start: 2025-11-01
     end: 2026-11-30
     summary: |
-      University-level research project at Shenyang Conservatory of Music. Designed interactive XR stage logic, implemented AI interaction workflows, and developed 5.1 surround sound spatialization for live experimental electroacoustic performance. Advisors: Assoc. Prof. Dong Liu and Senior Eng. Hai Luan.
+      University-level research project exploring AI in electroacoustic music composition through XR stage design, AI interaction logic, and 5.1 surround sound spatialization.
   - role: Core Researcher & Lead Developer
     org: Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
     start: 2025-12-01
     end: 2026-06-30
     summary: |
-      Challenge Cup Entrepreneurship Competition project focused on deep learning-based temporal modeling for Zhucheng School Guqin style reconstruction and digital heritage. Engineered a GRU-based generative pipeline for Guqin MIDI dataset curation, feature engineering, model training, and real-time MIDI output deployment.
+      Engineered a GRU-based generative model pipeline for Zhucheng School Guqin style reconstruction and digital heritage preservation.
   - role: Core Researcher
     org: Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
     start: 2024-10-01
     end: 2025-05-31
     summary: |
-      Ministry of Education Industry-University-Research Project. Responsible for dual-venue layout design, acoustic environment construction, and the project conclusion thesis. The project led to a follow-up grant on data security and information assurance for cross-regional dual-stage concerts.
+      Worked on dual-venue layout design, acoustic environment construction, and project thesis writing for a Ministry of Education industry-university-research project.
 
 skills:
   - name: Programming & AI
     items:
-      - label: Python
+      - label: Python / PyTorch
         level: 5
-      - label: PyTorch
-        level: 4
-      - label: CNN
-        level: 4
-      - label: GRU
-        level: 4
+      - label: CNN / GRU Models
+        level: 5
       - label: C
-        level: 3
-  - name: Music Software
+        level: 4
+  - name: Music & Interaction Software
     items:
-      - label: Cubase
+      - label: Max/MSP/Jitter
         level: 5
       - label: Ableton Live
         level: 5
-      - label: Max/MSP/Jitter
-        level: 4
-  - name: System Development
+      - label: Cubase
+        level: 5
+  - name: System & Stage Technology
     items:
-      - label: UDP/TCP Network Communication
-        level: 4
       - label: MIDI Data Processing
         level: 5
-      - label: Real-Time Interactive Systems
+      - label: UDP/TCP Network Communication
         level: 4
-  - name: Stage & Media Technology
-    items:
-      - label: XR Scene Building
-        level: 4
-      - label: Holographic Projection
-        level: 4
-      - label: 5.1 Surround Sound Design
+      - label: XR / Holographic Projection / 5.1 Surround Sound
         level: 4
 
 languages:
@@ -119,12 +106,12 @@ languages:
 
 awards:
   - title: National Encouragement Scholarship
-    awarder: Ministry of Education / Shenyang Conservatory of Music
+    awarder: Shenyang Conservatory of Music
     date: "2022-12-01"
     summary: Awarded in 2020, 2021, and 2022.
     icon: hero/trophy
   - title: First-class Scholarship
     awarder: Shenyang Conservatory of Music
     date: "2022-12-01"
-    summary: Awarded for outstanding academic performance.
-    icon: hero/star
+    summary: Awarded in 2022.
+    icon: hero/trophy
