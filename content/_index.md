@@ -5,9 +5,6 @@ sections:
   - block: resume-biography-3
     content:
       username: me
-      button:
-        text: 下载个人CV
-        url: uploads/resume.pdf
     design:
       css_class: wide-resume-section
 
@@ -15,62 +12,34 @@ sections:
     id: cv-overview
     content:
       text: |-
-        <div class="cv-resume-panel">
-          <section class="cv-languages" aria-labelledby="cv-languages-title">
-            <h2 id="cv-languages-title">Languages</h2>
-            <div class="cv-language-row">
-              <span><strong>English:</strong> IELTS 6.5</span>
-              <span><strong>Chinese:</strong> Native</span>
-            </div>
-          </section>
-
-          <section class="cv-education" aria-labelledby="cv-education-title">
-            <h2 id="cv-education-title">Education</h2>
-            <div class="cv-education-grid">
-              <article class="cv-card">
-                <h3>M.A. in Electronic Music Composition</h3>
-                <p class="cv-meta">Shenyang Conservatory of Music</p>
-                <p>2024-09-01 – 2027-06-30</p>
-                <p>Expected June 2027. GPA: 3.47/4.0.</p>
-              </article>
-              <article class="cv-card">
-                <h3>B.A. in Pop Saxophone (Jazz Direction)</h3>
-                <p class="cv-meta">Shenyang Conservatory of Music</p>
-                <p>2019-09-01 – 2023-06-30</p>
-                <p>GPA: 3.7/4.0.</p>
-              </article>
-            </div>
-          </section>
-
-          <section class="cv-three-column" aria-label="Interests, Technical Skills, and Honors">
-            <article class="cv-card cv-column-card">
-              <h2>Interests</h2>
-              <ul>
-                <li>Deep Learning-Based Symbolic Music Generation</li>
-                <li>Real-Time Human-Computer Interaction AI Systems</li>
-                <li>Audio-Visual Cross-Modal Interaction and New Media Creation</li>
-                <li>Algorithmic Composition and Electroacoustic Music</li>
-                <li>Digital Heritage Reconstruction of Traditional Chinese Music</li>
-              </ul>
-            </article>
-            <article class="cv-card cv-column-card">
-              <h2>Technical Skills</h2>
-              <ul>
-                <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C</li>
-                <li><strong>Music Software:</strong> Cubase, Ableton Live, Max/MSP/Jitter</li>
-                <li><strong>System Development:</strong> UDP/TCP Network Communication, MIDI Data Processing</li>
-                <li><strong>Stage Tech:</strong> XR Scene Building, Holographic Projection, 5.1 Surround Sound Design</li>
-              </ul>
-            </article>
-            <article class="cv-card cv-column-card">
-              <h2>Honors</h2>
-              <ul>
-                <li>National Encouragement Scholarship (2020, 2021, 2022)</li>
-                <li>First-class Scholarship (2022)</li>
-              </ul>
-            </article>
-          </section>
-        </div>
+        <section class="cv-three-column" aria-label="Interests, Technical Skills, and Honors">
+          <article class="cv-column-card">
+            <h2>Interests</h2>
+            <ul>
+              <li>Deep Learning-Based Symbolic Music Generation</li>
+              <li>Real-Time Human-Computer Interaction AI Systems</li>
+              <li>Audio-Visual Cross-Modal Interaction and New Media Creation</li>
+              <li>Algorithmic Composition and Electroacoustic Music</li>
+              <li>Digital Heritage Reconstruction of Traditional Chinese Music</li>
+            </ul>
+          </article>
+          <article class="cv-column-card">
+            <h2>Technical Skills</h2>
+            <ul>
+              <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C</li>
+              <li><strong>Music Software:</strong> Cubase, Ableton Live, Max/MSP/Jitter</li>
+              <li><strong>System Development:</strong> UDP/TCP Network Communication, MIDI Data Processing</li>
+              <li><strong>Stage Tech:</strong> XR Scene Building, Holographic Projection, 5.1 Surround Sound Design</li>
+            </ul>
+          </article>
+          <article class="cv-column-card">
+            <h2>Honors</h2>
+            <ul>
+              <li>National Encouragement Scholarship (2020, 2021, 2022)</li>
+              <li>First-class Scholarship (2022)</li>
+            </ul>
+          </article>
+        </section>
     design:
       columns: '1'
       css_class: cv-resume-details

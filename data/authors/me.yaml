@@ -31,10 +31,25 @@ links:
   - icon: "brands/github"
     url: "https://github.com/yakunliu-aimusic"
     label: "GitHub"
+  - icon: "hero/document-arrow-down"
+    url: "uploads/resume.pdf"
+    label: "下载个人CV"
 
 interests: []
 
-education: []
+education:
+  - degree: "M.A. in Electronic Music Composition"
+    institution: "Shenyang Conservatory of Music"
+    start: "2024-09-01"
+    end: "2027-06-30"
+    summary: |
+      Expected June 2027. GPA: 3.47/4.0.
+  - degree: "B.A. in Pop Saxophone (Jazz Direction)"
+    institution: "Shenyang Conservatory of Music"
+    start: "2019-09-01"
+    end: "2023-06-30"
+    summary: |
+      GPA: 3.7/4.0.
 
 experience:
   - role: "Principal Researcher"
@@ -63,6 +78,12 @@ experience:
 
 skills: []
 
-languages: []
+languages:
+  - name: "English"
+    level: 4
+    label: "IELTS 6.5"
+  - name: "Chinese"
+    level: 5
+    label: "Native"
 
 awards: []
