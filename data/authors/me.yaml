@@ -2,116 +2,116 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Yakun Liu
-  given: Yakun
-  family: Liu
-  alternate: 刘亚坤
-  pronunciation: ''
-  pronouns: ''
+  display: "Yakun Liu"
+  given: "Yakun"
+  family: "Liu"
+  alternate: "刘亚坤"
+  pronunciation: ""
+  pronouns: ""
 postnominals: []
 status:
   icon: ""
-role: M.A. Student in Electronic Music Composition
+role: "M.A. Student in Electronic Music Composition"
 bio: |
   Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music. His work focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, audio-visual cross-modal interaction, and new media art creation.
 
 affiliations:
-  - name: Shenyang Conservatory of Music
-    url: https://www.sycm.edu.cn/
+  - name: "Shenyang Conservatory of Music"
+    url: "https://www.sycm.edu.cn/"
 
 links:
-  - icon: at-symbol
-    url: mailto:luanhai@sycm.edu.cn
-    label: luanhai@sycm.edu.cn
+  - icon: "at-symbol"
+    url: "mailto:luanhai@sycm.edu.cn"
+    label: "luanhai@sycm.edu.cn"
 
 interests:
-  - Deep Learning-Based Symbolic Music Generation
-  - Real-Time Human-Computer Interaction AI Systems
-  - Audio-Visual Cross-Modal Interaction and New Media Creation
-  - Algorithmic Composition and Electroacoustic Music
-  - Digital Heritage Reconstruction of Traditional Chinese Music
+  - "Deep Learning-Based Symbolic Music Generation"
+  - "Real-Time Human-Computer Interaction AI Systems"
+  - "Audio-Visual Cross-Modal Interaction and New Media Creation"
+  - "Algorithmic Composition and Electroacoustic Music"
+  - "Digital Heritage Reconstruction of Traditional Chinese Music"
 
 education:
-  - degree: M.A. in Electronic Music Composition
-    institution: Shenyang Conservatory of Music
-    start: 2024-09-01
-    end: 2027-06-30
+  - degree: "M.A. in Electronic Music Composition"
+    institution: "Shenyang Conservatory of Music"
+    start: "2024-09-01"
+    end: "2027-06-30"
     summary: |
       Expected June 2027. GPA: 3.47/4.0.
-  - degree: B.A. in Pop Saxophone (Jazz Direction)
-    institution: Shenyang Conservatory of Music
-    start: 2019-09-01
-    end: 2023-06-30
+  - degree: "B.A. in Pop Saxophone (Jazz Direction)"
+    institution: "Shenyang Conservatory of Music"
+    start: "2019-09-01"
+    end: "2023-06-30"
     summary: |
       GPA: 3.7/4.0.
 
 experience:
-  - role: Principal Researcher
-    org: LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
-    start: 2026-01-01
+  - role: "Principal Researcher"
+    org: "LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model"
+    start: "2026-01-01"
     summary: |
       Led the independent research project, covering GRU-based time-series model training, MIDI dataset preprocessing, and a Python/C hybrid architecture with shared memory and high-precision timeline synchronization.
-  - role: Core Researcher
-    org: Sonic Structuring · Layered Imaging · Collaborative Resonance
-    start: 2025-11-01
-    end: 2026-11-30
+  - role: "Core Researcher"
+    org: "Sonic Structuring · Layered Imaging · Collaborative Resonance"
+    start: "2025-11-01"
+    end: "2026-11-30"
     summary: |
       University-level research project exploring AI in electroacoustic music composition through XR stage design, AI interaction logic, and 5.1 surround sound spatialization.
-  - role: Core Researcher & Lead Developer
-    org: Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
-    start: 2025-12-01
-    end: 2026-06-30
+  - role: "Core Researcher & Lead Developer"
+    org: "Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies"
+    start: "2025-12-01"
+    end: "2026-06-30"
     summary: |
       Engineered a GRU-based generative model pipeline for Zhucheng School Guqin style reconstruction and digital heritage preservation.
-  - role: Core Researcher
-    org: Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
-    start: 2024-10-01
-    end: 2025-05-31
+  - role: "Core Researcher"
+    org: "Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration"
+    start: "2024-10-01"
+    end: "2025-05-31"
     summary: |
       Worked on dual-venue layout design, acoustic environment construction, and project thesis writing for a Ministry of Education industry-university-research project.
 
 skills:
-  - name: Programming & AI
+  - name: "Programming & AI"
     items:
-      - label: Python / PyTorch
+      - label: "Python / PyTorch"
         level: 5
-      - label: CNN / GRU Models
+      - label: "CNN / GRU Models"
         level: 5
-      - label: C
+      - label: "C"
         level: 4
-  - name: Music & Interaction Software
+  - name: "Music & Interaction Software"
     items:
-      - label: Max/MSP/Jitter
+      - label: "Max/MSP/Jitter"
         level: 5
-      - label: Ableton Live
+      - label: "Ableton Live"
         level: 5
-      - label: Cubase
+      - label: "Cubase"
         level: 5
-  - name: System & Stage Technology
+  - name: "System & Stage Technology"
     items:
-      - label: MIDI Data Processing
+      - label: "MIDI Data Processing"
         level: 5
-      - label: UDP/TCP Network Communication
+      - label: "UDP/TCP Network Communication"
         level: 4
-      - label: XR / Holographic Projection / 5.1 Surround Sound
+      - label: "XR / Holographic Projection / 5.1 Surround Sound"
         level: 4
 
 languages:
-  - name: Chinese
+  - name: "Chinese"
     level: 5
-    label: Native
-  - name: English
+    label: "Native"
+  - name: "English"
     level: 4
-    label: IELTS 6.5
+    label: "IELTS 6.5"
 
 awards:
-  - title: National Encouragement Scholarship
-    awarder: Shenyang Conservatory of Music
+  - title: "National Encouragement Scholarship"
+    awarder: "Shenyang Conservatory of Music"
     date: "2022-12-01"
-    summary: Awarded in 2020, 2021, and 2022.
-    icon: hero/trophy
-  - title: First-class Scholarship
-    awarder: Shenyang Conservatory of Music
+    summary: "Awarded in 2020, 2021, and 2022."
+    icon: "hero/trophy"
+  - title: "First-class Scholarship"
+    awarder: "Shenyang Conservatory of Music"
     date: "2022-12-01"
-    summary: Awarded in 2022.
-    icon: hero/trophy
+    summary: "Awarded in 2022."
+    icon: "hero/trophy"
