@@ -1,15 +1,74 @@
 ---
-title: Home
-draft: false
+# Leave the homepage title empty to use the site title
+title: ''
+summary: 'Academic portfolio of Yakun Liu, focusing on AI music generation, electroacoustic composition, real-time interactive systems, and audio-visual new media art.'
+date: 2026-06-06
+type: landing
+
 sections:
+  - block: resume-biography-3
+    content:
+      username: me
+      text: ''
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+      headings:
+        about: About
+        education: Education
+        interests: Research Interests
+    design:
+      background:
+        gradient_mesh:
+          enable: true
+      name:
+        size: md
+      avatar:
+        size: medium
+        shape: circle
   - block: markdown
     content:
-      title: 个人简介
-      subtitle: About Me
+      title: 'Research Profile'
+      subtitle: 'AI music generation, electroacoustic composition, and interactive media systems'
       text: |-
-        刘亚坤，本科毕业于沈阳音乐学院流行萨克斯（爵士方向）专业，目前于该校攻读电子音乐作曲硕士学位，深耕人工智能音乐生成、实时人机交互系统、音视频跨媒介新媒体艺术等交叉领域研究。
+        Yakun Liu's work connects musical creativity with artificial intelligence, real-time interaction, and new media performance. His research investigates deep learning-based symbolic music generation, the design of human-computer interaction systems for live musical contexts, and audio-visual cross-modal mapping for immersive artistic creation.
 
-        兼具爵士器乐演奏与电子音乐创作功底，熟练掌握Python、C语言编程及PyTorch、CNN、GRU等深度学习框架，精通Max/MSP、Ableton、Cubase等专业音频软件，擅长XR场景搭建、全息投影、环绕声设计与5G+局域网远程演出系统开发。
-
-        在校期间多次斩获国家励志奖学金、校级一等奖学金，以第一作者身份发表多篇学术论文，研究方向覆盖算法作曲理论、克拉尼图案声光映射、十二音与爵士和声对比、5G-VR跨地域远程音乐会、古琴非遗AI数字化复原等课题。先后作为项目负责人或核心成员参与校级科研课题、教育部产学研项目及“挑战杯”创业项目，主导研发基于GRU的实时AI即兴交互系统、诸城派古琴深度学习数字化复原平台，在算法模型落地、新媒体展演工程、传统音乐数字化保护等方向产出多项落地成果，持续探索人工智能、数字媒体与传统音乐、现代电子作曲的跨界融合创新。
+        Current projects include GRU-based real-time jam-session systems, AI-assisted reconstruction of endangered Guqin melodies, XR electroacoustic performance environments, and VR dual-stage concerts enabled by campus network and 5G convergence technology.
+    design:
+      columns: '1'
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publications
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 2
+  - block: collection
+    content:
+      title: Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
+  - block: collection
+    id: projects
+    content:
+      title: Research Projects
+      text: Selected research and creative technology projects in AI music, XR performance, digital heritage, and networked concerts.
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      columns: 2
+      show_date: true
+      show_read_time: false
+      show_read_more: false
 ---

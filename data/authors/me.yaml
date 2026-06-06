@@ -2,115 +2,129 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Yakun Liu
+  given: Yakun
+  family: Liu
+  alternate: 刘雅琨
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🎷"
+role: M.A. Candidate in Electronic Music Composition
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Yakun Liu is a graduate student in Electronic Music Composition at Shenyang Conservatory of Music. His research focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, and audio-visual cross-modal interaction for new media art. His creative and technical work bridges electroacoustic composition, AI-assisted music generation, XR performance, VR live streaming, and digital heritage reconstruction.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Shenyang Conservatory of Music
+    url: https://www.sycm.edu.cn/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: mailto:luanhai@sycm.edu.cn
+    label: luanhai@sycm.edu.cn
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Deep Learning-Based Symbolic Music Generation
+  - Real-Time Human-Computer Interaction AI Systems
+  - Audio-Visual Cross-Modal Interaction
+  - New Media Art Creation
+  - Electroacoustic Music Composition
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: M.A. in Electronic Music Composition
+    institution: Shenyang Conservatory of Music
+    start: 2024-09-01
+    end: 2027-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Expected graduation in June 2027. GPA: 3.47/4.0.
+  - degree: B.A. in Pop Saxophone (Jazz Direction)
+    institution: Shenyang Conservatory of Music
+    start: 2019-09-01
+    end: 2023-06-30
+    summary: |
+      GPA: 3.7/4.0.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Principal Researcher
+    org: LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
+    start: 2026-01-01
+    end: 2026-12-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Led the full independent research project, including engineering architecture design, GRU-based time-series model training, MIDI dataset preprocessing, and real-time performance interaction. Designed a Python/C hybrid architecture with a custom shared-memory mechanism and high-precision timeline synchronization.
+  - role: Core Researcher
+    org: Sonic Structuring · Layered Imaging · Collaborative Resonance
+    start: 2025-11-01
+    end: 2026-11-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      University-level research project at Shenyang Conservatory of Music. Designed interactive XR stage logic, implemented AI interaction workflows, and developed 5.1 surround sound spatialization for live experimental electroacoustic performance. Advisors: Assoc. Prof. Dong Liu and Senior Eng. Hai Luan.
+  - role: Core Researcher & Lead Developer
+    org: Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
+    start: 2025-12-01
+    end: 2026-06-30
+    summary: |
+      Challenge Cup Entrepreneurship Competition project focused on deep learning-based temporal modeling for Zhucheng School Guqin style reconstruction and digital heritage. Engineered a GRU-based generative pipeline for Guqin MIDI dataset curation, feature engineering, model training, and real-time MIDI output deployment.
+  - role: Core Researcher
+    org: Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
+    start: 2024-10-01
+    end: 2025-05-31
+    summary: |
+      Ministry of Education Industry-University-Research Project. Responsible for dual-venue layout design, acoustic environment construction, and the project conclusion thesis. The project led to a follow-up grant on data security and information assurance for cross-regional dual-stage concerts.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & AI
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: PyTorch
         level: 4
-  - name: Research & Communication
+      - label: CNN
+        level: 4
+      - label: GRU
+        level: 4
+      - label: C
+        level: 3
+  - name: Music Software
     items:
-      - label: Academic Writing
+      - label: Cubase
         level: 5
-      - label: Conference Presentations
+      - label: Ableton Live
+        level: 5
+      - label: Max/MSP/Jitter
         level: 4
-      - label: Grant Proposals
+  - name: System Development
+    items:
+      - label: UDP/TCP Network Communication
+        level: 4
+      - label: MIDI Data Processing
+        level: 5
+      - label: Real-Time Interactive Systems
+        level: 4
+  - name: Stage & Media Technology
+    items:
+      - label: XR Scene Building
+        level: 4
+      - label: Holographic Projection
+        level: 4
+      - label: 5.1 Surround Sound Design
         level: 4
 
 languages:
-  - name: English
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
-    label: Fluent
+    label: IELTS 6.5
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
+  - title: National Encouragement Scholarship
+    awarder: Ministry of Education / Shenyang Conservatory of Music
     date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+    summary: Awarded in 2020, 2021, and 2022.
     icon: hero/trophy
+  - title: First-class Scholarship
+    awarder: Shenyang Conservatory of Music
+    date: "2022-12-01"
+    summary: Awarded for outstanding academic performance.
+    icon: hero/star
