@@ -20,6 +20,8 @@ role: "M.A. Student in Electronic Music Composition"
 bio: |
   Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music. His work focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, audio-visual cross-modal interaction, and new media art creation.
 
+  **Languages:** English: IELTS 6.5 · Chinese: Native
+
 affiliations:
   - name: "Shenyang Conservatory of Music"
     url: "https://www.sycm.edu.cn/"
@@ -31,9 +33,12 @@ links:
   - icon: "brands/github"
     url: "https://github.com/yakunliu-aimusic"
     label: "GitHub"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0000-0000-0000"
+    label: "ORCID"
   - icon: "hero/document-arrow-down"
     url: "uploads/resume.pdf"
-    label: "下载个人CV"
+    label: "Download CV"
 
 interests: []
 

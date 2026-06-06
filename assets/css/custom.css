@@ -29,19 +29,24 @@
 .cv-text-section .container,
 .cv-text-section .max-w-prose,
 .cv-text-section .prose {
-  max-width: 1360px;
+  max-width: 1480px;
+}
+
+.cv-resume-details {
+  margin-top: -2.25rem;
+  padding-top: 0;
 }
 
 .cv-resume-details .prose {
-  width: min(100%, 1320px);
+  width: min(100%, 1440px);
   margin-left: auto;
   margin-right: auto;
 }
 
 .cv-three-column {
   display: grid;
-  grid-template-columns: minmax(390px, 1.2fr) minmax(470px, 1.45fr) minmax(300px, 0.9fr);
-  gap: clamp(2rem, 4vw, 4.5rem);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(2.5rem, 5vw, 5.5rem);
   align-items: start;
 }
 
@@ -69,7 +74,9 @@
 .cv-column-card li {
   margin-bottom: 0.55rem;
   line-height: 1.5;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  white-space: normal;
 }
 
 .wide-resume-section > div,
@@ -93,6 +100,11 @@
   overflow-wrap: normal;
   word-break: normal;
   hyphens: none;
+}
+
+.wide-resume-section p strong:first-child {
+  display: inline-block;
+  margin-top: 0.35rem;
 }
 
 .wide-resume-section img[src*="avatar"],
@@ -189,10 +201,6 @@
   .cv-resume-details .prose {
     width: 100%;
     max-width: 100%;
-  }
-
-  .cv-column-card li {
-    white-space: normal;
   }
 
   .cv-left-layout .section-heading,
