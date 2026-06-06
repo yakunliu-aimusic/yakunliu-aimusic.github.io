@@ -34,13 +34,13 @@
 }
 
 .cv-resume-details {
-  margin-top: -1.25rem;
+  margin-top: -2.75rem;
   padding-top: 0;
 }
 
 .cv-resume-details .prose {
   width: min(100%, 1440px);
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
 }
 
@@ -99,7 +99,7 @@
 
 .wide-resume-section > div,
 .wide-resume-section .container {
-  margin-left: 3rem;
+  margin-left: 0;
   margin-right: auto;
 }
 
@@ -179,10 +179,10 @@
   .wide-resume-section > div > div:first-child:not(:only-child),
   .wide-resume-section .container > div:first-child:not(:only-child) {
     display: grid;
-    grid-template-columns: minmax(320px, 36%) minmax(620px, 64%);
+    grid-template-columns: minmax(300px, 30%) minmax(780px, 70%);
     align-items: center;
-    column-gap: 3rem;
-    max-width: 1180px;
+    column-gap: 2.5rem;
+    max-width: 1280px;
     margin-left: 0;
     margin-right: auto;
   }
@@ -197,7 +197,7 @@
   .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2),
   .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) {
     justify-self: start;
-    max-width: 740px;
+    max-width: 860px;
   }
 }
 
