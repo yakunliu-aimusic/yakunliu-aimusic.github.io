@@ -11,6 +11,9 @@ name:
 postnominals: []
 status:
   icon: ""
+image:
+  filename: "authors/me/avatar.jpg"
+  focal_point: "Center"
 role: "M.A. Student in Electronic Music Composition"
 bio: |
   Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music. His work focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, audio-visual cross-modal interaction, and new media art creation.
