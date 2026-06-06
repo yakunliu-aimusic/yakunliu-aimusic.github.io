@@ -4,10 +4,112 @@
   max-width: 1280px;
 }
 
+.wide-resume-section a[href*="resume.pdf"],
+.wide-resume-section a[href*="uploads/resume"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 1rem;
+}
+
+.cv-resume-details .container,
+.cv-resume-details .max-w-prose,
+.cv-resume-details .prose,
 .cv-text-section .container,
 .cv-text-section .max-w-prose,
 .cv-text-section .prose {
   max-width: 1180px;
+}
+
+.cv-resume-details .prose {
+  width: min(100%, 1120px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv-resume-panel {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.cv-languages,
+.cv-card {
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.cv-languages {
+  padding: 1.25rem 1.5rem;
+}
+
+.cv-resume-panel h2,
+.cv-resume-panel h3,
+.cv-resume-panel p,
+.cv-resume-panel ul {
+  margin-top: 0;
+}
+
+.cv-resume-panel h2 {
+  margin-bottom: 0.85rem;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.cv-resume-panel h3 {
+  margin-bottom: 0.45rem;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.cv-language-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2rem;
+  align-items: center;
+}
+
+.cv-education-grid,
+.cv-three-column {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.cv-education-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cv-three-column {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.cv-card {
+  padding: 1.35rem 1.5rem;
+}
+
+.cv-card p:last-child,
+.cv-card ul:last-child,
+.cv-card li:last-child {
+  margin-bottom: 0;
+}
+
+.cv-card ul {
+  padding-left: 1.15rem;
+}
+
+.cv-card li {
+  margin-bottom: 0.55rem;
+}
+
+.cv-column-card {
+  min-width: 0;
+}
+
+.cv-meta {
+  font-weight: 600;
 }
 
 .wide-resume-section > div,
@@ -99,6 +201,15 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .cv-languages,
+  .cv-card {
+    border-color: rgba(148, 163, 184, 0.22);
+    background: rgba(15, 23, 42, 0.48);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  }
+}
+
 @media (max-width: 1100px) {
   .wide-resume-section [class*="grid-cols-2"] {
     grid-template-columns: repeat(2, minmax(300px, 1fr));
@@ -115,8 +226,20 @@
 }
 
 @media (max-width: 900px) {
-  .wide-resume-section [class*="grid-cols-2"] {
+  .wide-resume-section [class*="grid-cols-2"],
+  .cv-education-grid,
+  .cv-three-column {
     grid-template-columns: 1fr;
+  }
+
+  .cv-resume-details .prose {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cv-languages,
+  .cv-card {
+    padding: 1.1rem 1.2rem;
   }
 
   .cv-left-layout .section-heading,
