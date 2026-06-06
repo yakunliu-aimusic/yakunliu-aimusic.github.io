@@ -11,31 +11,6 @@ sections:
     design:
       css_class: wide-resume-section
 
-  - block: markdown
-    id: about
-    content:
-      title: 个人简介
-      subtitle: About Me
-      text: |-
-        刘亚坤（Yakun Liu）现为沈阳音乐学院电子音乐作曲方向硕士研究生，研究与创作聚焦 AI 音乐生成、实时人机交互、音视频跨模态交互与新媒体艺术。
-    design:
-      columns: '1'
-      css_class: cv-text-section cv-left-layout
-
-  - block: markdown
-    id: interests
-    content:
-      title: 研究兴趣
-      subtitle: Research Interests
-      text: |-
-        - Deep Learning-Based Symbolic Music Generation
-        - Design and Development of Real-Time Human-Computer Interaction AI Systems
-        - Audio-Visual Cross-Modal Interaction and New Media Creation
-        - Algorithmic Composition, AI Music, and Electroacoustic Music Composition
-        - Digital Heritage Reconstruction of Traditional Chinese Music
-    design:
-      columns: '1'
-      css_class: cv-text-section cv-left-layout
 
   - block: markdown
     id: publications
