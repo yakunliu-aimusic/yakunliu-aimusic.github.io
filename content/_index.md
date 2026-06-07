@@ -8,28 +8,34 @@ sections:
       text: |-
         <section class="cv-custom-hero" aria-label="Yakun Liu biography">
           <div class="cv-custom-profile">
-            <img class="cv-custom-avatar" src="/media/avatar.jpg" alt="Yakun Liu">
+            <img class="cv-custom-avatar" src="/uploads/avatar.jpg" alt="Yakun Liu">
             <h1>Yakun Liu</h1>
             <p class="cv-custom-role">M.A. Student in Electronic Music Composition</p>
             <p class="cv-custom-affiliation">Shenyang Conservatory of Music</p>
             <div class="cv-custom-links" aria-label="Profile links">
-              <a href="mailto:luanhai@sycm.edu.cn" aria-label="Email">@</a>
-              <a href="https://github.com/yakunliu-aimusic" aria-label="GitHub">GH</a>
-              <a href="https://orcid.org/0000-0000-0000-0000" aria-label="ORCID">iD</a>
-              <a href="/uploads/resume.pdf" aria-label="CV">CV</a>
+              <a href="mailto:luanhai@sycm.edu.cn" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.75a9.25 9.25 0 1 0 5.6 16.62.9.9 0 0 0-1.08-1.44A7.45 7.45 0 1 1 19.45 12v.72a1.96 1.96 0 0 1-3.9.25 4.35 4.35 0 1 0-1.36 2.05 3.75 3.75 0 0 0 7.06-2.3V12A9.26 9.26 0 0 0 12 2.75Zm0 11.8A2.55 2.55 0 1 1 12 9.45a2.55 2.55 0 0 1 0 5.1Z" fill="currentColor"/></svg>
+              </a>
+              <a href="https://github.com/yakunliu-aimusic" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.75-1.32-3.75-1.32-.51-1.3-1.25-1.64-1.25-1.64-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 .1 2.64.72 3.22-.56.1-.73.39-1.22.71-1.5-2.47-.28-5.07-1.24-5.07-5.51 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.95 0 0 .95-.3 3.09 1.14a10.65 10.65 0 0 1 5.62 0c2.14-1.45 3.08-1.14 3.08-1.14.62 1.53.23 2.67.11 2.95.72.78 1.16 1.77 1.16 2.99 0 4.28-2.6 5.22-5.08 5.5.4.35.76 1.03.76 2.08v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z" fill="currentColor"/></svg>
+              </a>
+              <a href="https://orcid.org/0000-0000-0000-0000" aria-label="ORCID">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2A9.8 9.8 0 1 0 12 21.8 9.8 9.8 0 0 0 12 2.2Zm-2.7 14.1H7.85V9.4H9.3v6.9Zm-.73-7.9a.86.86 0 1 1 0-1.72.86.86 0 0 1 0 1.72Zm3.26 7.9h-1.46V7.7h3.18c2.54 0 3.96 1.74 3.96 4.28 0 2.55-1.42 4.32-3.95 4.32h-1.73Zm0-7.25v5.9h1.63c1.72 0 2.55-1.11 2.55-2.96s-.83-2.94-2.55-2.94h-1.63Z" fill="currentColor"/></svg>
+              </a>
+              <a href="/uploads/resume.pdf" aria-label="CV"><span>CV</span></a>
             </div>
           </div>
           <div class="cv-custom-details">
             <section>
-              <h2>Professional Summary</h2>
+              <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Professional Summary</h2>
               <p>Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music. His work focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, audio-visual cross-modal interaction, and new media art creation.</p>
             </section>
             <section>
-              <h2>Languages</h2>
+              <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
               <p><strong>English:</strong> IELTS 6.5 <span class="cv-inline-separator">·</span> <strong>Chinese:</strong> Native</p>
             </section>
             <section>
-              <h2>Education</h2>
+              <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2.8 7.7 12 12.4l7.5-3.83V15h1.7V7.7L12 3Zm-5.8 8.35v4.2c0 1.75 2.65 3.45 5.8 3.45s5.8-1.7 5.8-3.45v-4.2L12 14.3l-5.8-2.95Z" fill="currentColor"/></svg></span>Education</h2>
               <div class="cv-custom-education-grid">
                 <article>
                   <h3>M.A. in Electronic Music Composition</h3>
@@ -57,7 +63,7 @@ sections:
       text: |-
         <section class="cv-three-column" aria-label="Interests, Technical Skills, and Honors">
           <article class="cv-column-card">
-            <h2><span class="cv-heading-icon" aria-hidden="true">✦</span>Interests</h2>
+            <h2><span class="cv-heading-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.2 14.35 9 20.6 12l-6.25 3L12 20.8 9.65 15 3.4 12l6.25-3L12 3.2Z" fill="currentColor"/></svg></span>Interests</h2>
             <ul>
               <li>Deep Learning-Based Symbolic Music Generation</li>
               <li>Real-Time Human-Computer Interaction AI Systems</li>
@@ -67,7 +73,7 @@ sections:
             </ul>
           </article>
           <article class="cv-column-card">
-            <h2><span class="cv-heading-icon" aria-hidden="true">⌘</span>Technical Skills</h2>
+            <h2><span class="cv-heading-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.4 3.5h5.2l.55 2.55c.55.22 1.08.52 1.56.9l2.48-.82 2.6 4.5-1.93 1.74c.05.3.07.6.07.91s-.02.61-.07.91l1.93 1.74-2.6 4.5-2.48-.82c-.48.38-1 .68-1.56.9l-.55 2.55H9.4l-.55-2.55a7.7 7.7 0 0 1-1.56-.9l-2.48.82-2.6-4.5 1.93-1.74a5.7 5.7 0 0 1 0-1.82L2.2 10.63l2.6-4.5 2.48.82c.48-.38 1-.68 1.56-.9L9.4 3.5Zm2.6 12.25a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Z" fill="currentColor"/></svg></span>Technical Skills</h2>
             <ul>
               <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C</li>
               <li><strong>Music Software:</strong> Cubase, Ableton Live, Max/MSP/Jitter</li>
@@ -76,7 +82,7 @@ sections:
             </ul>
           </article>
           <article class="cv-column-card">
-            <h2><span class="cv-heading-icon" aria-hidden="true">◇</span>Honors</h2>
+            <h2><span class="cv-heading-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8 14.6 8l5.7.83-4.15 4.03.98 5.7L12 15.88l-5.1 2.68.97-5.7L3.75 8.83 9.4 8 12 2.8Z" fill="currentColor"/></svg></span>Honors</h2>
             <ul>
               <li>National Encouragement Scholarship (2020, 2021, 2022)</li>
               <li>First-class Scholarship (2022)</li>
