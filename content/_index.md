@@ -99,35 +99,81 @@ sections:
       title: "✧ Selected Publications"
       subtitle: Publications
       text: |-
-     
-        **Liu, Y., Luan, H., Liu, D., & Jin, Z. (2026). _Real-time Human-Machine Interactive Music Generation System Based on Role-aware GRU and High-Performance Architecture_.
-        - Presented a real-time bidirectional human-machine interactive music generation system powered by GRU, addressing excessive inference latency, one-way generation logic and lack of role awareness in existing AI music models for live instrumental improvisation.
-        - Built a low-latency audio computing architecture based on C++, JUCE and RTNeural, realized allocation-free and wait-free model inference with SIMD acceleration, and designed a three-stage curriculum learning strategy for interactive music training.
-        - Validated the overall performance through latency benchmark, ablation experiments and MOS subjective evaluation, and proposed a lightweight and practical paradigm for AI-assisted real-time live music performance and human-machine musical interaction.
-     
-        **Liu, Y., Luan, H., Liu, D., & Jin, Z. (2026). _ChladniSonify: A Visual-Acoustic Mapping Method for Chladni Patterns in New Media Art Creation_. 
+        <div class="publication-list">
+          <article class="publication-item">
+            <div class="publication-text">
+              <p><strong>Liu, Y., Luan, H., Liu, D., & Jin, Z. (2026). <em>Real-time Human-Machine Interactive Music Generation System Based on Role-aware GRU and High-Performance Architecture</em>.</strong></p>
+              <ul>
+                <li>Presented a real-time bidirectional human-machine interactive music generation system powered by GRU, addressing excessive inference latency, one-way generation logic and lack of role awareness in existing AI music models for live instrumental improvisation.</li>
+                <li>Built a low-latency audio computing architecture based on C++, JUCE and RTNeural, realized allocation-free and wait-free model inference with SIMD acceleration, and designed a three-stage curriculum learning strategy for interactive music training.</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <img src="/LK%20Jam.png" alt="Real-time Human-Machine Interactive Music Generation System preview">
+            </figure>
+          </article>
 
-        - Presented ChladniSonify, a real-time visual-acoustic mapping method addressing subjective mapping logic, limited real-time capability, and high technical barriers in Chladni pattern-based new media art creation.
-        - Built a physically consistent paired dataset, realized high-precision low-latency recognition through a CBAM-enhanced lightweight CNN, and developed a complete end-to-end real-time system.
-        - Validated the system performance experimentally and proposed a reusable mapping framework for audio-visual artistic creation.
+          <article class="publication-item">
+            <div class="publication-text">
+              <p><strong>Liu, Y., Luan, H., Liu, D., & Jin, Z. (2026). <em>ChladniSonify: A Visual-Acoustic Mapping Method for Chladni Patterns in New Media Art Creation</em>.</strong></p>
+              <ul>
+                <li>Presented ChladniSonify, a real-time visual-acoustic mapping method addressing subjective mapping logic, limited real-time capability, and high technical barriers in Chladni pattern-based new media art creation.</li>
+                <li>Built a physically consistent paired dataset, realized high-precision low-latency recognition through a CBAM-enhanced lightweight CNN, and developed a complete end-to-end real-time system.</li>
+                <li>Validated the system performance experimentally and proposed a reusable mapping framework for audio-visual artistic creation.</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <img src="/ChladniSonify.png" alt="ChladniSonify preview">
+            </figure>
+          </article>
 
-        **Liu, Y., Liu, D., & Jin, Z. (2026). _Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches_. 
+          <article class="publication-item">
+            <div class="publication-text">
+              <p><strong>Liu, Y., Liu, D., & Jin, Z. (2026). <em>Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches</em>.</strong></p>
+              <ul>
+                <li>Categorized traditional algorithmic composition into symbolic, optimization, complex systems, and statistical models, detailing mechanisms from Markov chains to genetic algorithms.</li>
+                <li>Evaluated algorithms based on structural control, stylistic simulation, and innovation, concluding their enduring value in interpretability and human-computer collaboration.</li>
+                <li>Constructed a multidimensional comparative framework that clarifies paradigm shifts between traditional composition and algorithmic methodologies.</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <img src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
+            </figure>
+          </article>
 
-        - Categorized traditional algorithmic composition into symbolic, optimization, complex systems, and statistical models, detailing mechanisms from Markov chains to genetic algorithms.
-        - Evaluated algorithms based on structural control, stylistic simulation, and innovation, concluding their enduring value in interpretability and human-computer collaboration.
-        - Constructed a multidimensional comparative framework that clarifies paradigm shifts between traditional composition and algorithmic methodologies.
+          <article class="publication-item">
+            <div class="publication-text">
+              <p><strong>Liu, Y., Liu, D., & Jin, Z. (2026). <em>Dual Trajectories of Tonal Transformation: A Multidimensional Comparative Study of Twelve-Tone Technique, Coltrane Changes, and the Integration of Bebop Elements</em>.</strong></p>
+              <ul>
+                <li>Systematically contrasted the atonal liberation of the twentieth-century classical twelve-tone technique with the multi-tonal fragmentation of Coltrane changes in jazz.</li>
+                <li>Analyzed seminal works across tonality, harmony, melody, rhythm, and musical philosophy, establishing a comprehensive comparative framework.</li>
+                <li>Revealed dual principles of tonal transformation in twentieth-century music through comparison across classical and jazz idioms.</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
+            </figure>
+          </article>
 
-        **Liu, Y., Liu, D., & Jin, Z. (2026). _Dual Trajectories of Tonal Transformation: A Multidimensional Comparative Study of Twelve-Tone Technique, Coltrane Changes, and the Integration of Bebop Elements_. 
-
-        - Systematically contrasted the atonal liberation of the twentieth-century classical twelve-tone technique with the multi-tonal fragmentation of Coltrane changes in jazz.
-        - Analyzed seminal works across tonality, harmony, melody, rhythm, and musical philosophy, establishing a comprehensive comparative framework.
-        - Revealed dual principles of tonal transformation in twentieth-century music through comparison across classical and jazz idioms.
-
-        **Liu, Y., & Luan, H. (2026). _Research on VR Live Streaming Interaction for Cross-Regional Dual-Stage Concerts Based on Campus Network and 5G Convergence Technology_. China Journal of Broadband, XX(X), 166–168.**
-
-        - Proposed a dual-stage VR live-streaming architecture integrating campus LAN and 5G transmission to address latency and synchronization challenges in cross-regional collaborative music performance.
-        - Integrated green screen matting, holographic projection, and 5.1 surround sound pickup into a unified broadcasting pipeline.
-        - Demonstrated a replicable digital performance workflow and validated the feasibility of campus network–5G convergence for live music applications.
+          <article class="publication-item">
+            <div class="publication-text">
+              <p><strong>Liu, Y., & Luan, H. (2026). <em>Research on VR Live Streaming Interaction for Cross-Regional Dual-Stage Concerts Based on Campus Network and 5G Convergence Technology</em>. China Journal of Broadband, XX(X), 166–168.</strong></p>
+              <ul>
+                <li>Proposed a dual-stage VR live-streaming architecture integrating campus LAN and 5G transmission to address latency and synchronization challenges in cross-regional collaborative music performance.</li>
+                <li>Integrated green screen matting, holographic projection, and 5.1 surround sound pickup into a unified broadcasting pipeline.</li>
+                <li>Demonstrated a replicable digital performance workflow and validated the feasibility of campus network–5G convergence for live music applications.</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <img src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
+            </figure>
+          </article>
+        </div>
     design:
       columns: '1'
       css_class: cv-text-section cv-left-layout
