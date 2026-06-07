@@ -2,73 +2,59 @@
 title: Home
 draft: false
 sections:
-  - block: resume-biography-3
+  - block: markdown
+    id: cv-hero
     content:
-      username: me
+      text: |-
+        <section class="cv-custom-hero" aria-label="Yakun Liu biography">
+          <div class="cv-custom-profile">
+            <img class="cv-custom-avatar" src="/media/avatar.jpg" alt="Yakun Liu">
+            <h1>Yakun Liu</h1>
+            <p class="cv-custom-role">M.A. Student in Electronic Music Composition</p>
+            <p class="cv-custom-affiliation">Shenyang Conservatory of Music</p>
+            <div class="cv-custom-links" aria-label="Profile links">
+              <a href="mailto:luanhai@sycm.edu.cn" aria-label="Email">@</a>
+              <a href="https://github.com/yakunliu-aimusic" aria-label="GitHub">GH</a>
+              <a href="https://orcid.org/0000-0000-0000-0000" aria-label="ORCID">iD</a>
+              <a href="/uploads/resume.pdf" aria-label="CV">CV</a>
+            </div>
+          </div>
+          <div class="cv-custom-details">
+            <section>
+              <h2>Professional Summary</h2>
+              <p>Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music. His work focuses on deep learning-based symbolic music generation, real-time human-computer interaction AI systems, audio-visual cross-modal interaction, and new media art creation.</p>
+            </section>
+            <section>
+              <h2>Languages</h2>
+              <p><strong>English:</strong> IELTS 6.5 <span class="cv-inline-separator">·</span> <strong>Chinese:</strong> Native</p>
+            </section>
+            <section>
+              <h2>Education</h2>
+              <div class="cv-custom-education-grid">
+                <article>
+                  <h3>M.A. in Electronic Music Composition</h3>
+                  <p>Shenyang Conservatory of Music</p>
+                  <p>2024-09-01 – 2027-06-30</p>
+                  <p>Expected June 2027. GPA: 3.47/4.0.</p>
+                </article>
+                <article>
+                  <h3>B.A. in Pop Saxophone (Jazz Direction)</h3>
+                  <p>Shenyang Conservatory of Music</p>
+                  <p>2019-09-01 – 2023-06-30</p>
+                  <p>GPA: 3.7/4.0.</p>
+                </article>
+              </div>
+            </section>
+          </div>
+        </section>
     design:
-      css_class: wide-resume-section
+      columns: '1'
+      css_class: cv-custom-hero-section
 
   - block: markdown
     id: cv-overview
     content:
       text: |-
-        <style>
-          @media (min-width: 901px) {
-            .wide-resume-section,
-            section:has(img[alt*="Yakun"]),
-            section:has(img[alt*="Liu"]) {
-              max-width: 1320px;
-              margin-left: auto;
-              margin-right: auto;
-            }
-
-            .wide-resume-section > div > div:first-child:not(:only-child),
-            .wide-resume-section .container > div:first-child:not(:only-child),
-            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child),
-            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) {
-              display: grid;
-              grid-template-columns: minmax(320px, 30%) minmax(760px, 70%);
-              column-gap: 3.5rem;
-              align-items: center;
-              max-width: 1320px;
-              margin-left: auto;
-              margin-right: auto;
-              transform: translateX(-4.25rem);
-            }
-
-            .wide-resume-section > div > div:first-child:not(:only-child) > :first-child,
-            .wide-resume-section .container > div:first-child:not(:only-child) > :first-child,
-            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :first-child,
-            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :first-child {
-              justify-self: center;
-              max-width: 420px;
-              text-align: center;
-            }
-
-            .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2),
-            .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2),
-            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :nth-child(2),
-            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :nth-child(2) {
-              justify-self: start;
-              width: min(100%, 840px);
-              max-width: 840px;
-              transform: translateY(1.6rem);
-            }
-
-            .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
-            .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) .prose,
-            .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2) p,
-            .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) p,
-            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
-            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
-            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :nth-child(2) p,
-            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :nth-child(2) p {
-              width: min(100%, 840px);
-              max-width: 840px;
-            }
-          }
-        </style>
-
         <section class="cv-three-column" aria-label="Interests, Technical Skills, and Honors">
           <article class="cv-column-card">
             <h2><span class="cv-heading-icon" aria-hidden="true">✦</span>Interests</h2>

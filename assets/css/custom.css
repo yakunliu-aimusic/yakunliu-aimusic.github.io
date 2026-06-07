@@ -4,6 +4,126 @@
   max-width: 1280px;
 }
 
+.cv-custom-hero-section .container,
+.cv-custom-hero-section .max-w-prose,
+.cv-custom-hero-section .prose {
+  max-width: 1320px;
+}
+
+.cv-custom-hero {
+  display: grid;
+  grid-template-columns: minmax(300px, 30%) minmax(760px, 70%);
+  gap: 3.5rem;
+  align-items: start;
+  width: min(100%, 1320px);
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateX(-4.25rem);
+}
+
+.cv-custom-profile {
+  text-align: center;
+}
+
+.cv-custom-avatar {
+  width: min(320px, 100%);
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 4px solid #fff;
+  box-shadow: 0 20px 55px rgba(15, 23, 42, 0.14);
+  margin: 0 auto 1.35rem;
+}
+
+.cv-custom-profile h1 {
+  margin: 0 0 0.65rem;
+  font-size: clamp(2.7rem, 5vw, 4.2rem);
+  line-height: 1;
+}
+
+.cv-custom-role {
+  max-width: 360px;
+  margin: 0 auto 0.8rem;
+  color: rgb(67, 56, 202);
+  font-weight: 700;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.cv-custom-affiliation {
+  margin: 0 0 1.5rem;
+  font-size: 1.05rem;
+}
+
+.cv-custom-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+}
+
+.cv-custom-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.65rem;
+  height: 2.65rem;
+  border: 1px solid rgba(148, 163, 184, 0.36);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.1);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cv-custom-details {
+  width: min(100%, 840px);
+  max-width: 840px;
+  transform: translateY(1.6rem);
+}
+
+.cv-custom-details section {
+  margin-bottom: 1.45rem;
+}
+
+.cv-custom-details h2 {
+  margin: 0 0 0.65rem;
+  font-size: 1.28rem;
+  line-height: 1.2;
+}
+
+.cv-custom-details p {
+  margin-top: 0;
+  line-height: 1.58;
+}
+
+.cv-inline-separator {
+  margin: 0 0.55rem;
+}
+
+.cv-custom-education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.cv-custom-education-grid article {
+  padding: 1.15rem 1.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.66);
+}
+
+.cv-custom-education-grid h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.cv-custom-education-grid p {
+  margin-bottom: 0.35rem;
+}
+
 .wide-resume-section {
   padding-top: 1.25rem;
 }
@@ -228,6 +348,22 @@
 }
 
 @media (max-width: 900px) {
+  .cv-custom-hero {
+    grid-template-columns: 1fr;
+    transform: none;
+    gap: 2rem;
+  }
+
+  .cv-custom-details {
+    width: 100%;
+    max-width: 100%;
+    transform: none;
+  }
+
+  .cv-custom-education-grid {
+    grid-template-columns: 1fr;
+  }
+
   .wide-resume-section > div,
   .wide-resume-section .container {
     margin-left: auto;
