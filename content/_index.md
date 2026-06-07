@@ -108,9 +108,9 @@ sections:
                 <li>Built a low-latency audio computing architecture based on C++, JUCE and RTNeural, realized allocation-free and wait-free model inference with SIMD acceleration, and designed a three-stage curriculum learning strategy for interactive music training.</li>
               </ul>
             </div>
-            <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-              <img src="/LK%20Jam.png" alt="Real-time Human-Machine Interactive Music Generation System preview">
+            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/LK%20Jam.png" alt="Real-time Human-Machine Interactive Music Generation System preview">
             </figure>
           </article>
 
@@ -123,9 +123,9 @@ sections:
                 <li>Validated the system performance experimentally and proposed a reusable mapping framework for audio-visual artistic creation.</li>
               </ul>
             </div>
-            <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-              <img src="/ChladniSonify.png" alt="ChladniSonify preview">
+            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/ChladniSonify.png" alt="ChladniSonify preview">
             </figure>
           </article>
 
@@ -138,9 +138,9 @@ sections:
                 <li>Constructed a multidimensional comparative framework that clarifies paradigm shifts between traditional composition and algorithmic methodologies.</li>
               </ul>
             </div>
-            <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-              <img src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
+            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
             </figure>
           </article>
 
@@ -153,9 +153,9 @@ sections:
                 <li>Revealed dual principles of tonal transformation in twentieth-century music through comparison across classical and jazz idioms.</li>
               </ul>
             </div>
-            <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-              <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
+            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
 
@@ -168,9 +168,9 @@ sections:
                 <li>Demonstrated a replicable digital performance workflow and validated the feasibility of campus network–5G convergence for live music applications.</li>
               </ul>
             </div>
-            <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-              <img src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
+            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
             </figure>
           </article>
         </div>
