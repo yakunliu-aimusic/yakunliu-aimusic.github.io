@@ -109,7 +109,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
               <img src="/LK%20Jam.png" alt="Real-time Human-Machine Interactive Music Generation System preview">
             </figure>
           </article>
@@ -124,7 +124,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
               <img src="/ChladniSonify.png" alt="ChladniSonify preview">
             </figure>
           </article>
@@ -139,7 +139,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
               <img src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
             </figure>
           </article>
@@ -154,7 +154,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
               <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
@@ -169,7 +169,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><a href="#">Paper Link</a><span>------</span><a href="#">Github Link</a></div>
+              <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
               <img src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
             </figure>
           </article>
