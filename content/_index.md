@@ -12,6 +12,63 @@ sections:
     id: cv-overview
     content:
       text: |-
+        <style>
+          @media (min-width: 901px) {
+            .wide-resume-section,
+            section:has(img[alt*="Yakun"]),
+            section:has(img[alt*="Liu"]) {
+              max-width: 1320px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            .wide-resume-section > div > div:first-child:not(:only-child),
+            .wide-resume-section .container > div:first-child:not(:only-child),
+            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child),
+            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) {
+              display: grid;
+              grid-template-columns: minmax(320px, 30%) minmax(760px, 70%);
+              column-gap: 3.5rem;
+              align-items: center;
+              max-width: 1320px;
+              margin-left: auto;
+              margin-right: auto;
+              transform: translateX(-4.25rem);
+            }
+
+            .wide-resume-section > div > div:first-child:not(:only-child) > :first-child,
+            .wide-resume-section .container > div:first-child:not(:only-child) > :first-child,
+            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :first-child,
+            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :first-child {
+              justify-self: center;
+              max-width: 420px;
+              text-align: center;
+            }
+
+            .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2),
+            .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2),
+            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :nth-child(2),
+            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :nth-child(2) {
+              justify-self: start;
+              width: min(100%, 840px);
+              max-width: 840px;
+              transform: translateY(1.6rem);
+            }
+
+            .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
+            .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) .prose,
+            .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2) p,
+            .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) p,
+            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
+            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
+            section:has(img[alt*="Yakun"]) > div > div:first-child:not(:only-child) > :nth-child(2) p,
+            section:has(img[alt*="Liu"]) > div > div:first-child:not(:only-child) > :nth-child(2) p {
+              width: min(100%, 840px);
+              max-width: 840px;
+            }
+          }
+        </style>
+
         <section class="cv-three-column" aria-label="Interests, Technical Skills, and Honors">
           <article class="cv-column-card">
             <h2><span class="cv-heading-icon" aria-hidden="true">✦</span>Interests</h2>
