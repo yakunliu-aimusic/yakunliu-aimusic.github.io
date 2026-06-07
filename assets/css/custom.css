@@ -88,7 +88,7 @@
 .cv-custom-details {
   width: min(100%, 840px);
   max-width: 840px;
-  transform: translateY(1.6rem);
+  transform: translate(2.8rem, 1.6rem);
 }
 
 .cv-custom-details section {
@@ -315,6 +315,50 @@
   position: relative;
 }
 
+.cv-section-directory {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 3vw, 3rem);
+  width: min(100vw - 3rem, 1200px);
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 1.2rem;
+  background: rgba(248, 250, 252, 0.7);
+}
+
+.cv-directory-column h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+.cv-directory-column ol {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.cv-directory-column li {
+  margin-bottom: 0.45rem;
+  line-height: 1.4;
+}
+
+.cv-directory-column a {
+  text-decoration: none;
+}
+
+.cv-directory-column a:hover {
+  text-decoration: underline;
+}
+
+.publication-item,
+.project-feature-item,
+[id^="project-"] {
+  scroll-margin-top: 6rem;
+}
+
 .publication-list {
   display: grid;
   gap: 2.8rem;
@@ -500,6 +544,7 @@
 }
 
 @media (max-width: 900px) {
+  .cv-section-directory,
   .publication-item,
   .project-feature-item {
     grid-template-columns: 1fr;
