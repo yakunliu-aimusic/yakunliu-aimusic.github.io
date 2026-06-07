@@ -50,19 +50,19 @@ sections:
       title: "✧ Selected Publications"
       subtitle: Publications
       text: |-
-        **Liu, Y., Liu, D., & Jin, Z. (2026). _Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches_. [link]**
+        **Liu, Y., Liu, D., & Jin, Z. (2026). _Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches_. 
 
         - Categorized traditional algorithmic composition into symbolic, optimization, complex systems, and statistical models, detailing mechanisms from Markov chains to genetic algorithms.
         - Evaluated algorithms based on structural control, stylistic simulation, and innovation, concluding their enduring value in interpretability and human-computer collaboration.
         - Constructed a multidimensional comparative framework that clarifies paradigm shifts between traditional composition and algorithmic methodologies.
 
-        **Liu, Y., Luan, H., Liu, D., & Jin, Z. (2026). _ChladniSonify: A Visual-Acoustic Mapping Method for Chladni Patterns in New Media Art Creation_. [link]**
+        **Liu, Y., Luan, H., Liu, D., & Jin, Z. (2026). _ChladniSonify: A Visual-Acoustic Mapping Method for Chladni Patterns in New Media Art Creation_. 
 
         - Presented ChladniSonify, a real-time visual-acoustic mapping method addressing subjective mapping logic, limited real-time capability, and high technical barriers in Chladni pattern-based new media art creation.
         - Built a physically consistent paired dataset, realized high-precision low-latency recognition through a CBAM-enhanced lightweight CNN, and developed a complete end-to-end real-time system.
         - Validated the system performance experimentally and proposed a reusable mapping framework for audio-visual artistic creation.
 
-        **Liu, Y., Liu, D., & Jin, Z. (2026). _Dual Trajectories of Tonal Transformation: A Multidimensional Comparative Study of Twelve-Tone Technique, Coltrane Changes, and the Integration of Bebop Elements_. [link]**
+        **Liu, Y., Liu, D., & Jin, Z. (2026). _Dual Trajectories of Tonal Transformation: A Multidimensional Comparative Study of Twelve-Tone Technique, Coltrane Changes, and the Integration of Bebop Elements_. 
 
         - Systematically contrasted the atonal liberation of the twentieth-century classical twelve-tone technique with the multi-tonal fragmentation of Coltrane changes in jazz.
         - Analyzed seminal works across tonality, harmony, melody, rhythm, and musical philosophy, establishing a comprehensive comparative framework.

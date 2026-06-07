@@ -179,13 +179,13 @@
   .wide-resume-section > div > div:first-child:not(:only-child),
   .wide-resume-section .container > div:first-child:not(:only-child) {
     display: grid;
-    grid-template-columns: minmax(340px, 34%) minmax(680px, 66%);
+    grid-template-columns: minmax(320px, 30%) minmax(760px, 70%);
     align-items: center;
-    column-gap: 3rem;
-    max-width: 1240px;
+    column-gap: 3.5rem;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
-    transform: translateX(-2.5rem);
+    transform: translateX(-4.25rem);
   }
 
   .wide-resume-section > div > div:first-child:not(:only-child) > :first-child,
@@ -198,15 +198,17 @@
   .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2),
   .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) {
     justify-self: start;
-    width: min(100%, 760px);
-    max-width: 760px;
+    width: min(100%, 840px);
+    max-width: 840px;
+    transform: translateY(1.6rem);
   }
 
   .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2) .prose,
   .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) .prose,
   .wide-resume-section > div > div:first-child:not(:only-child) > :nth-child(2) p,
   .wide-resume-section .container > div:first-child:not(:only-child) > :nth-child(2) p {
-    max-width: 760px;
+    width: min(100%, 840px);
+    max-width: 840px;
   }
 }
 
