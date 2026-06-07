@@ -176,7 +176,7 @@ sections:
         </div>
     design:
       columns: '1'
-      css_class: cv-text-section cv-left-layout
+      css_class: cv-text-section cv-left-layout publications-wide-layout
 
   - block: markdown
     id: projects
