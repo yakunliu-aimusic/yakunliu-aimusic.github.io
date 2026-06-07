@@ -181,23 +181,23 @@ sections:
       subtitle: Project / Research Experience
       text: |-
         <div class="project-feature-item">
-          <div class="project-feature-text">
-            <h3>LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model</h3>
-            <p><strong>Independent Research Project — Principal Researcher</strong></p>
+        <div class="project-feature-text">
 
-            <p>Collaborator: Z. Jin</p>
+        ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
+        **Independent Research Project — Principal Researcher**
 
-            <p><strong>2026</strong></p>
+        Collaborator: Z. Jin
 
-            <ul>
-              <li>Led the full project independently, covering engineering architecture design, GRU-based time-series model training, and MIDI dataset preprocessing.</li>
-              <li>Designed a Python/C hybrid architecture with a custom shared memory mechanism and high-precision timeline synchronization, enabling stable real-time performance interaction.</li>
-            </ul>
-          </div>
-          <figure class="project-feature-figure">
-            <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-            <img src="/LK%20Jam.png" alt="LK Jam preview">
-          </figure>
+        **2026**
+
+        - Led the full project independently, covering engineering architecture design, GRU-based time-series model training, and MIDI dataset preprocessing.
+        - Designed a Python/C hybrid architecture with a custom shared memory mechanism and high-precision timeline synchronization, enabling stable real-time performance interaction.
+
+        </div>
+        <figure class="project-feature-figure">
+          <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+          <img src="/LK%20Jam.png" alt="LK Jam preview">
+        </figure>
         </div>
 
         ### Sonic Structuring · Layered Imaging · Collaborative Resonance: Multi-dimensional Exploration of Artificial Intelligence in Electroacoustic Music Composition
