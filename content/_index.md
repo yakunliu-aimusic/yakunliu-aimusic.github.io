@@ -94,10 +94,8 @@ sections:
       css_class: cv-resume-details
 
   - block: markdown
-    id: publications
+    id: section-directory
     content:
-      title: "✧ Selected Publications"
-      subtitle: Publications
       text: |-
         <div class="cv-section-directory" aria-label="Publications and projects directory">
           <div class="cv-directory-column">
@@ -121,7 +119,16 @@ sections:
             </ol>
           </div>
         </div>
+    design:
+      columns: '1'
+      css_class: cv-directory-section
 
+  - block: markdown
+    id: publications
+    content:
+      title: "✧ Selected Publications"
+      subtitle: Publications
+      text: |-
         <div class="publication-list">
           <article id="pub-gru-interactive-system" class="publication-item">
             <div class="publication-text">
@@ -207,7 +214,7 @@ sections:
         ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
         **Independent Research Project — Principal Researcher**
 
-        Collaborator: Z. Jin
+        此项目为个人研究
 
         **2026**
 
@@ -227,7 +234,7 @@ sections:
         ### VisionAudioMapping 音视联动映射
         **SYCM University-level Research Project — Core Researcher**
 
-        Advisors: Assoc. Prof. Dong Liu (SYCM), Senior Eng. Hai Luan (SYCM)
+        此项目为个人研究
 
         **Nov 2025 – Nov 2026 (Expected)**
 
@@ -235,6 +242,7 @@ sections:
 
         </div>
         <figure class="project-feature-figure">
+          <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
           <img src="/VisionAudioMapping.jpg" alt="VisionAudioMapping preview">
         </figure>
         </div>
