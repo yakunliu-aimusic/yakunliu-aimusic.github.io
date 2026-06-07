@@ -297,17 +297,17 @@
 .cv-left-layout h2 {
   width: min(100%, 880px);
   max-width: 880px;
-  text-align: left;
-  margin-left: 4rem;
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .cv-left-layout .prose,
 .cv-left-layout .max-w-prose {
   width: min(100%, 880px);
   max-width: 880px;
-  margin-left: 4rem;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -325,9 +325,13 @@
 .cv-left-layout .prose:has(.publication-list),
 .cv-left-layout .max-w-prose:has(.publication-list),
 .publications-wide-layout .prose,
-.publications-wide-layout .max-w-prose {
+.publications-wide-layout .max-w-prose,
+.projects-centered-layout .prose,
+.projects-centered-layout .max-w-prose {
   width: min(100vw - 3rem, 1520px);
   max-width: 1520px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .publication-item {
@@ -342,6 +346,10 @@
 .publication-item:last-child {
   border-bottom: 0;
   padding-bottom: 0;
+}
+
+.publication-item:not(:has(.publication-figure)) {
+  grid-template-columns: 1fr;
 }
 
 .publication-text {
@@ -391,6 +399,39 @@
   object-fit: contain;
   border-radius: 0;
   border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.project-feature-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  gap: clamp(2rem, 3.5vw, 3.5rem);
+  align-items: start;
+  margin-bottom: 2.6rem;
+}
+
+.project-feature-text {
+  min-width: 0;
+}
+
+.project-feature-text h3 {
+  margin-top: 0;
+}
+
+.project-feature-figure {
+  width: 100%;
+  margin: 0;
+  background: transparent;
+}
+
+.project-feature-figure img {
+  display: block;
+  width: 100%;
+  max-height: 630px;
+  object-fit: contain;
+  border: 0;
+  border-radius: 0;
   background: transparent;
   box-shadow: none;
 }
@@ -453,12 +494,14 @@
   .cv-left-layout h2,
   .cv-left-layout .prose,
   .cv-left-layout .max-w-prose {
-    margin-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-width: 900px) {
-  .publication-item {
+  .publication-item,
+  .project-feature-item {
     grid-template-columns: 1fr;
   }
 

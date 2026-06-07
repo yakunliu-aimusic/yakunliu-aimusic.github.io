@@ -108,10 +108,6 @@ sections:
                 <li>Built a low-latency audio computing architecture based on C++, JUCE and RTNeural, realized allocation-free and wait-free model inference with SIMD acceleration, and designed a three-stage curriculum learning strategy for interactive music training.</li>
               </ul>
             </div>
-            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
-              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/LK%20Jam.png" alt="Real-time Human-Machine Interactive Music Generation System preview">
-            </figure>
           </article>
 
           <article class="publication-item">
@@ -184,15 +180,25 @@ sections:
       title: "✦ Project & Research Experience"
       subtitle: Project / Research Experience
       text: |-
-        ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
-        **Independent Research Project — Principal Researcher**
+        <div class="project-feature-item">
+          <div class="project-feature-text">
+            <h3>LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model</h3>
+            <p><strong>Independent Research Project — Principal Researcher</strong></p>
 
-        Collaborator: Z. Jin
+            <p>Collaborator: Z. Jin</p>
 
-        **2026**
+            <p><strong>2026</strong></p>
 
-        - Led the full project independently, covering engineering architecture design, GRU-based time-series model training, and MIDI dataset preprocessing.
-        - Designed a Python/C hybrid architecture with a custom shared memory mechanism and high-precision timeline synchronization, enabling stable real-time performance interaction.
+            <ul>
+              <li>Led the full project independently, covering engineering architecture design, GRU-based time-series model training, and MIDI dataset preprocessing.</li>
+              <li>Designed a Python/C hybrid architecture with a custom shared memory mechanism and high-precision timeline synchronization, enabling stable real-time performance interaction.</li>
+            </ul>
+          </div>
+          <figure class="project-feature-figure">
+            <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+            <img src="/LK%20Jam.png" alt="LK Jam preview">
+          </figure>
+        </div>
 
         ### Sonic Structuring · Layered Imaging · Collaborative Resonance: Multi-dimensional Exploration of Artificial Intelligence in Electroacoustic Music Composition
         **SYCM University-level Research Project — Core Researcher**
@@ -225,5 +231,4 @@ sections:
         - Project outcomes led to an approved follow-up grant: _Data Security and Information Assurance for Cross-Regional Dual-Stage Concerts via Campus Network and 5G_ (No. 250403601102843, Oct 2025–Oct 2026); continuing as core researcher and contributing to security model architecture design.
     design:
       columns: '1'
-      css_class: cv-text-section cv-left-layout
----
+      css_class: cv-text-section cv-left-layout projects-centered-layout
