@@ -328,10 +328,10 @@
 
 .cv-section-directory {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(2rem, 4vw, 4rem);
-  width: min(100vw - 3rem, 1480px);
-  max-width: 1480px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(2.5rem, 5vw, 5.5rem);
+  width: min(100vw - 3rem, 1440px);
+  max-width: 1440px;
   margin: 0 auto 1.5rem;
   padding: 1.45rem 1.75rem;
   border: 1px solid rgba(148, 163, 184, 0.22);
@@ -366,7 +366,8 @@
 
 .publication-item,
 .project-feature-item,
-[id^="project-"] {
+[id^="project-"],
+#portfolio {
   scroll-margin-top: 6rem;
 }
 
@@ -382,7 +383,9 @@
 .publications-wide-layout .prose,
 .publications-wide-layout .max-w-prose,
 .projects-centered-layout .prose,
-.projects-centered-layout .max-w-prose {
+.projects-centered-layout .max-w-prose,
+.portfolio-section .prose,
+.portfolio-section .max-w-prose {
   width: min(100vw - 3rem, 1520px);
   max-width: 1520px;
   margin-left: auto;

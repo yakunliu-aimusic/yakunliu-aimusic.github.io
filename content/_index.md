@@ -118,6 +118,12 @@ sections:
               <li><a href="#project-vr-dual-stage-concert">Exploration of VR Live Interactive Remote Dual-Stage Concert</a></li>
             </ol>
           </div>
+          <div class="cv-directory-column">
+            <h3>作品集</h3>
+            <ol>
+              <li><a href="#portfolio">作品集</a></li>
+            </ol>
+          </div>
         </div>
     design:
       columns: '1'
@@ -282,4 +288,17 @@ sections:
     design:
       columns: '1'
       css_class: cv-text-section cv-left-layout projects-centered-layout
+
+  - block: markdown
+    id: portfolio
+    content:
+      title: "✦ 作品集"
+      subtitle: Portfolio
+      text: |-
+        <section id="portfolio-content" class="portfolio-section-content" aria-label="Portfolio">
+          <p>作品集内容待补充。</p>
+        </section>
+    design:
+      columns: '1'
+      css_class: cv-text-section cv-left-layout portfolio-section
 ---
