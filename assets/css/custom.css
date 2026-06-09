@@ -316,7 +316,15 @@
 }
 
 .cv-directory-section {
-  padding-bottom: 0.25rem;
+  padding-bottom: 0;
+  margin-bottom: -1rem;
+}
+
+.publications-wide-layout,
+.projects-centered-layout,
+.portfolio-section {
+  margin-top: -1.5rem;
+  padding-top: 1rem;
 }
 
 .cv-directory-section .container,
@@ -373,7 +381,7 @@
 
 .publication-list {
   display: grid;
-  gap: 2.8rem;
+  gap: 2rem;
   width: min(100vw - 3rem, 1520px);
   max-width: 1520px;
 }
@@ -397,7 +405,7 @@
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   gap: clamp(2rem, 3.5vw, 3.5rem);
   align-items: start;
-  padding-bottom: 2.8rem;
+  padding-bottom: 2rem;
   border-bottom: 1px solid rgba(148, 163, 184, 0.24);
 }
 
@@ -478,7 +486,7 @@
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
   gap: clamp(2rem, 3.5vw, 3.5rem);
   align-items: start;
-  margin-bottom: 2.6rem;
+  margin-bottom: 2rem;
 }
 
 .project-feature-text {
@@ -504,6 +512,23 @@
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+}
+
+:is(.dark, [data-theme="dark"], html.dark, body.dark) .publication-figure,
+:is(.dark, [data-theme="dark"], html.dark, body.dark) .project-feature-figure {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(226, 232, 240, 0.18);
+  background: rgba(248, 250, 252, 0.88);
+}
+
+:is(.dark, [data-theme="dark"], html.dark, body.dark) .publication-links,
+:is(.dark, [data-theme="dark"], html.dark, body.dark) .project-feature-figure .publication-links {
+  color: rgb(15, 23, 42);
+}
+
+:is(.dark, [data-theme="dark"], html.dark, body.dark) .publication-links span:not(.link-meta) {
+  color: rgba(71, 85, 105, 0.8);
 }
 
 .cv-text-section .prose::after {

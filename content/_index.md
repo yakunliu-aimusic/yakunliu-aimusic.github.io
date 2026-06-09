@@ -28,7 +28,7 @@ sections:
           <div class="cv-custom-details">
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Professional Summary</h2>
-              <p>兼具音乐表演、作曲功底，同时掌握深度学习与工程落地技能，熟练使用编程及相关算法技术。主要研究 AI 音乐生成、实时人机交互、音视跨模态艺术等方向。已发表多篇论文与预印本，参与多项省部、校级科研项目，专注探索人工智能与电子音乐、新媒体艺术的交叉融合.</p>
+              <p>Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music, with a strong engineering background in deep learning and real-time systems. His research focuses on real-time interactive music generation and audio-visual cross-modal learning, with applications in digital heritage preservation and live performance. He is seeking a Ph.D. position in Computer Science starting Fall 2027.</p>
             </section>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
@@ -77,8 +77,8 @@ sections:
             <ul>
               <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C++, JUCE </li>
               <li><strong>Music Software:</strong> Cubase, Ableton Live, Max/MSP/Jitter</li>
-              <li><strong>System Development:</strong> UDP/TCP, MIDI Data Processing</li>
-              <li><strong>Stage Tech:</strong> XR Scene Building, Holographic Projection, 5.1 Surround Sound Design</li>
+              <li><strong>System Development:</strong>  MIDI Data Processing, Audio Plugin, UDP/TCP,</li>
+              <li><strong>Stage Tech:</strong> XR Scene Building, 5.1 Surround Sound Design</li>
             </ul>
           </article>
           <article class="cv-column-card">
@@ -155,9 +155,9 @@ sections:
                 <li>Validated the system performance experimentally and proposed a reusable mapping framework for audio-visual artistic creation.</li>
               </ul>
             </div>
-            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
-              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/ChladniSonify.png" alt="ChladniSonify preview">
+            <figure class="publication-figure">
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <img src="/ChladniSonify.png" alt="ChladniSonify preview">
             </figure>
           </article>
 
@@ -170,9 +170,9 @@ sections:
                 <li>Constructed a multidimensional comparative framework that clarifies paradigm shifts between traditional composition and algorithmic methodologies.</li>
               </ul>
             </div>
-            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
-              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
+            <figure class="publication-figure">
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <img src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
             </figure>
           </article>
 
@@ -185,9 +185,9 @@ sections:
                 <li>Revealed dual principles of tonal transformation in twentieth-century music through comparison across classical and jazz idioms.</li>
               </ul>
             </div>
-            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
-              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
+            <figure class="publication-figure">
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
+              <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
 
@@ -198,9 +198,9 @@ sections:
                 <li>Proposed a dual-stage VR live-streaming architecture integrating campus LAN and 5G transmission to address latency and synchronization challenges in cross-regional collaborative music performance.</li>
               </ul>
             </div>
-            <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
-              <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
+            <figure class="publication-figure">
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
+              <img src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
             </figure>
           </article>
         </div>
