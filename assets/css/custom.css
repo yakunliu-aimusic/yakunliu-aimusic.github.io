@@ -446,32 +446,16 @@
   color: inherit;
 }
 
-.publication-links .icon-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.35rem;
-  height: 1.35rem;
-  text-decoration: none;
+.publication-links a {
   color: rgb(37, 99, 235);
+  font-weight: 850;
+  text-decoration: underline;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.18em;
 }
 
-.publication-links .icon-link::before {
-  content: "";
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  border: 1.8px solid currentColor;
-  background: transparent;
-  flex: 0 0 auto;
-}
-
-.publication-links .paper-link::before {
-  border-radius: 0.16rem;
-}
-
-.publication-links .github-link::before {
-  border-radius: 50%;
+.publication-links a:hover {
+  color: rgb(29, 78, 216);
 }
 
 .publication-links span:not(.link-meta) {
