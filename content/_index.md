@@ -156,7 +156,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: ArXiv, Open Source; Link:</span><a class="paper-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
               <img src="/ChladniSonify.png" alt="ChladniSonify preview">
             </figure>
           </article>
@@ -171,7 +171,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: SSRN, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
               <img src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
             </figure>
           </article>
@@ -186,7 +186,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: SSRN; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
               <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
@@ -199,7 +199,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="paper-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published; Link:</span><a class="paper-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
               <img src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
             </figure>
           </article>
@@ -225,11 +225,11 @@ sections:
         **2026**
 
         - Led the full project independently, covering engineering architecture design, GRU-based time-series model training, and MIDI dataset preprocessing.
-        - Designed a Python/C hybrid architecture with a custom shared memory mechanism and high-precision timeline synchronization, enabling stable real-time performance interaction.
+        - Designed JUCE architecture with a custom shared memory mechanism and high-precision timeline synchronization, enabling stable real-time performance interaction.
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+          <div class="publication-links"><span>------</span><span class="link-meta">Status:Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
           <img src="/LK%20Jam.png" alt="LK Jam preview">
         </figure>
         </div>
@@ -248,7 +248,7 @@ sections:
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+          <div class="publication-links"><span>------</span><span class="link-meta">Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
           <img src="/VisionAudioMapping.jpg" alt="VisionAudioMapping preview">
         </figure>
         </div>
