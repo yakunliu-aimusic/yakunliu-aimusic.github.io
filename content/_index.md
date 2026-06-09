@@ -75,7 +75,7 @@ sections:
           <article class="cv-column-card">
             <h2><span class="cv-heading-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9.4 3.5h5.2l.55 2.55c.55.22 1.08.52 1.56.9l2.48-.82 2.6 4.5-1.93 1.74c.05.3.07.6.07.91s-.02.61-.07.91l1.93 1.74-2.6 4.5-2.48-.82c-.48.38-1 .68-1.56.9l-.55 2.55H9.4l-.55-2.55a7.7 7.7 0 0 1-1.56-.9l-2.48.82-2.6-4.5 1.93-1.74a5.7 5.7 0 0 1 0-1.82L2.2 10.63l2.6-4.5 2.48.82c.48-.38 1-.68 1.56-.9L9.4 3.5Zm2.6 12.25a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Z" fill="currentColor"/></svg></span>Technical Skills</h2>
             <ul>
-              <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C</li>
+              <li><strong>Programming:</strong> Python (PyTorch, CNN, GRU), C++, JUCE </li>
               <li><strong>Music Software:</strong> Cubase, Ableton Live, Max/MSP/Jitter</li>
               <li><strong>System Development:</strong> UDP/TCP Network Communication, MIDI Data Processing</li>
               <li><strong>Stage Tech:</strong> XR Scene Building, Holographic Projection, 5.1 Surround Sound Design</li>
@@ -156,7 +156,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a class="paper-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer">Paper Link 论文链接</a><a class="github-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer">Github Link GitHub 链接</a><span>------</span></div>
               <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/ChladniSonify.png" alt="ChladniSonify preview">
             </figure>
           </article>
@@ -171,7 +171,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer">Paper Link 论文链接</a><a class="github-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer">Github Link GitHub 链接</a><span>------</span></div>
               <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Rules%2C%20Probability%2C%20and%20Emergence.png" alt="Rules, Probability, and Emergence preview">
             </figure>
           </article>
@@ -186,7 +186,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer">Paper Link 论文链接</a><span>------</span></div>
               <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
@@ -199,7 +199,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure" style="background: transparent !important; box-shadow: none !important; border: 0 !important;">
-              <div class="publication-links" style="background: transparent !important;"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+              <div class="publication-links" style="background: transparent !important;"><span>------</span><a class="paper-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">Paper Link 论文链接</a><span>------</span></div>
               <img style="background: transparent !important; box-shadow: none !important; border: 0 !important; border-radius: 0 !important;" src="/Research%20on%20VR%20Live%20Streaming%20Interaction.png" alt="Research on VR Live Streaming Interaction preview">
             </figure>
           </article>
@@ -229,7 +229,7 @@ sections:
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+          <div class="publication-links"><span>------</span><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">Github Link GitHub 链接</a><span>------</span></div>
           <img src="/LK%20Jam.png" alt="LK Jam preview">
         </figure>
         </div>
@@ -248,7 +248,7 @@ sections:
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><a href="#">Paper Link</a><a href="#">Github Link</a><span>------</span></div>
+          <div class="publication-links"><span>------</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">Github Link GitHub 链接</a><span>------</span></div>
           <img src="/VisionAudioMapping.jpg" alt="VisionAudioMapping preview">
         </figure>
         </div>
