@@ -502,9 +502,6 @@
 
 .project-feature-item:not(:has(.project-feature-figure)) .project-feature-text {
   text-align: left;
-  max-width: 860px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .project-feature-text {

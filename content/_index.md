@@ -342,14 +342,10 @@ sections:
     content:
       text: |-
         <section class="personal-signature" aria-label="Personal Signature">
-          <p>可惜的是，艺术院校不教反向传播，</p>
-          <p>计算机系不分析肖邦夜曲。</p>
-          <p class="signature-en">Unfortunately, art schools don't teach backpropagation,</p>
-          <p class="signature-en">and computer science departments don't analyze Chopin's Nocturnes.</p>
-          <p style="margin-top:1rem;">未来一片更为广阔的天地亟待人们去探索，</p>
-          <p>为变者争争朝暮以令无穷……</p>
-          <p class="signature-en">A much broader world awaits exploration,</p>
-          <p class="signature-en">racing against time for the ever-changing...</p>
+          <p>可惜的是，艺术院校不教反向传播，计算机系不分析肖邦夜曲。</p>
+          <p class="signature-en">Unfortunately, art schools don't teach backpropagation, and computer science departments don't analyze Chopin's Nocturnes.</p>
+          <p style="margin-top:1rem;">未来一片更为广阔的天地亟待人们去探索，为变者争争朝暮以令无穷……</p>
+          <p class="signature-en">A much broader world awaits exploration, racing against time for the ever-changing...</p>
         </section>
     design:
       columns: '1'
