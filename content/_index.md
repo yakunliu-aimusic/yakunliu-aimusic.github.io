@@ -266,7 +266,10 @@ sections:
         </div>
         <figure class="project-feature-figure">
           <div class="publication-links"><span>------</span><span class="link-meta">Status:Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
-          <img src="/VisionAudioMapping.jpg" alt="VisionAudioMapping preview">
+          <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
+            <source src="/VisionAudioMapping.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </figure>
         </div>
 

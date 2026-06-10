@@ -317,14 +317,14 @@
 
 .cv-directory-section {
   padding-bottom: 0;
-  margin-bottom: -1rem;
+  margin-bottom: -2.5rem;
 }
 
 .publications-wide-layout,
 .projects-centered-layout,
 .portfolio-section {
-  margin-top: -1.5rem;
-  padding-top: 1rem;
+  margin-top: -2.5rem;
+  padding-top: 0.5rem;
 }
 
 .cv-directory-section .container,
