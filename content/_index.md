@@ -324,11 +324,11 @@ sections:
   - block: markdown
     id: portfolio
     content:
-      title: "✦ 作品集"
+      title: "✦ Portfolio"
       subtitle: Portfolio
       text: |-
         <section id="portfolio-content" class="portfolio-section-content" aria-label="Portfolio">
-          <p>作品集内容待补充。</p>
+          <p>Portfolio content to be added.</p>
         </section>
     design:
       columns: '1'
@@ -341,6 +341,8 @@ sections:
         <section class="personal-signature" aria-label="Personal Signature">
           <p>可惜的是，艺术院校不教反向传播，计算机系不分析肖邦夜曲。</p>
           <p>未来一片更为广阔的天地亟待人们去探索，为变者争争朝暮以令无穷……</p>
+          <p class="signature-en">Unfortunately, art schools don't teach backpropagation, and computer science departments don't analyze Chopin's Nocturnes.</p>
+          <p class="signature-en">A much broader world awaits exploration, racing against time for the ever-changing...</p>
         </section>
     design:
       columns: '1'
