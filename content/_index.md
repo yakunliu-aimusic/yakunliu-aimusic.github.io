@@ -273,7 +273,7 @@ sections:
         </figure>
         </div>
 
-        <div id="project-vr-dual-stage-concert" class="project-feature-item">
+        <div id="project-vr-dual-stage-concert" class="project-feature-item project-text-only">
         <div class="project-feature-text">
 
         ### Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
@@ -289,7 +289,7 @@ sections:
         </div>
         </div>
 
-        <div id="project-sonic-structuring" class="project-feature-item">
+        <div id="project-sonic-structuring" class="project-feature-item project-text-only">
         <div class="project-feature-text">
 
         ### Sonic Structuring · Layered Imaging · Collaborative Resonance: Multi-dimensional Exploration of Artificial Intelligence in Electroacoustic Music Composition
@@ -305,7 +305,7 @@ sections:
         </div>
         </div>
 
-        <div id="project-qinmai-zhixu" class="project-feature-item">
+        <div id="project-qinmai-zhixu" class="project-feature-item project-text-only">
         <div class="project-feature-text">
 
         ### Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
