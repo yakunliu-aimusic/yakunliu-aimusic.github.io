@@ -297,10 +297,10 @@
 .cv-left-layout h2 {
   width: min(100%, 880px);
   max-width: 880px;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .cv-left-layout .prose,
@@ -487,6 +487,13 @@
   gap: clamp(2rem, 3.5vw, 3.5rem);
   align-items: start;
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.24);
+}
+
+.project-feature-item:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .project-feature-text {
@@ -514,6 +521,11 @@
   box-shadow: none;
 }
 
+body,
+html {
+  background-color: rgb(248, 250, 252);
+}
+
 :is(.dark, [data-theme="dark"], html.dark, body.dark) .publication-figure,
 :is(.dark, [data-theme="dark"], html.dark, body.dark) .project-feature-figure {
   padding: 1rem;
@@ -529,6 +541,30 @@
 
 :is(.dark, [data-theme="dark"], html.dark, body.dark) .publication-links span:not(.link-meta) {
   color: rgba(71, 85, 105, 0.8);
+}
+
+.personal-signature {
+  text-align: center;
+  padding: 2.5rem 1.5rem 1.5rem;
+  margin: 0 auto;
+  max-width: 860px;
+}
+
+.personal-signature p {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: rgba(71, 85, 105, 0.85);
+  font-style: italic;
+  margin: 0;
+}
+
+.personal-signature p + p {
+  margin-top: 0.35rem;
+}
+
+.signature-section {
+  padding-top: 0;
+  padding-bottom: 3rem;
 }
 
 .cv-text-section .prose::after {

@@ -144,6 +144,13 @@ sections:
                 <li>Built a low-latency audio computing architecture based on C++, JUCE and RTNeural, realized allocation-free and wait-free model inference with SIMD acceleration, and designed a three-stage curriculum learning strategy for interactive music training.</li>
               </ul>
             </div>
+            <figure class="publication-figure">
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: ArXiv, Open Source; Link:</span><a class="paper-link" href="#" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="#" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
+                <source src="/LK_Jam.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </figure>
           </article>
 
           <article id="pub-chladnisonify" class="publication-item">
@@ -248,12 +255,30 @@ sections:
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><span class="link-meta">Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+          <div class="publication-links"><span>------</span><span class="link-meta">Status:Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
           <img src="/VisionAudioMapping.jpg" alt="VisionAudioMapping preview">
         </figure>
         </div>
 
-        <span id="project-sonic-structuring"></span>
+        <div id="project-vr-dual-stage-concert" class="project-feature-item">
+        <div class="project-feature-text">
+
+        ### Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
+        **Ministry of Education Industry-University-Research Project — Core Researcher**
+
+        Advisor: Senior Eng. Hai Luan (SYCM)
+
+        **Oct 2024 – May 2025**
+
+        - Responsible for dual-venue layout design, acoustic environment construction, and authoring the project conclusion thesis.
+        - Project outcomes led to an approved follow-up grant: _Data Security and Information Assurance for Cross-Regional Dual-Stage Concerts via Campus Network and 5G_ (No. 250403601102843, Oct 2025–Oct 2026); continuing as core researcher and contributing to security model architecture design.
+
+        </div>
+        </div>
+
+        <div id="project-sonic-structuring" class="project-feature-item">
+        <div class="project-feature-text">
+
         ### Sonic Structuring · Layered Imaging · Collaborative Resonance: Multi-dimensional Exploration of Artificial Intelligence in Electroacoustic Music Composition
         **SYCM University-level Research Project — Core Researcher**
 
@@ -264,7 +289,12 @@ sections:
         - Explored interdisciplinary frontiers of AI and electronic music by designing an interactive XR stage, implementing AI interaction logic, and building 5.1 surround sound spatialization for live experimental performances.
         - Authored the project research thesis and produced original electroacoustic compositions as primary creative outputs.
 
-        <span id="project-qinmai-zhixu"></span>
+        </div>
+        </div>
+
+        <div id="project-qinmai-zhixu" class="project-feature-item">
+        <div class="project-feature-text">
+
         ### Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
         **Challenge Cup Entrepreneurship Competition — Core Researcher & Lead Developer**
 
@@ -275,16 +305,8 @@ sections:
         - Engineered an end-to-end GRU-based generative model pipeline, including specialized Guqin MIDI dataset curation, feature engineering, model training, and real-time MIDI output deployment.
         - Framed the technical system within intangible heritage documentation and digital reconstruction of the Zhucheng Guqin school.
 
-        <span id="project-vr-dual-stage-concert"></span>
-        ### Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
-        **Ministry of Education Industry-University-Research Project — Core Researcher**
-
-        Advisor: Senior Eng. Hai Luan (SYCM)
-
-        **Oct 2024 – May 2025**
-
-        - Responsible for dual-venue layout design, acoustic environment construction, and authoring the project conclusion thesis.
-        - Project outcomes led to an approved follow-up grant: _Data Security and Information Assurance for Cross-Regional Dual-Stage Concerts via Campus Network and 5G_ (No. 250403601102843, Oct 2025–Oct 2026); continuing as core researcher and contributing to security model architecture design.
+        </div>
+        </div>
     design:
       columns: '1'
       css_class: cv-text-section cv-left-layout projects-centered-layout
@@ -301,4 +323,16 @@ sections:
     design:
       columns: '1'
       css_class: cv-text-section cv-left-layout portfolio-section
+
+  - block: markdown
+    id: signature
+    content:
+      text: |-
+        <section class="personal-signature" aria-label="Personal Signature">
+          <p>可惜的是，艺术院校不教反向传播，计算机系不分析肖邦夜曲。</p>
+          <p>未来一片更为广阔的天地亟待人们去探索，为变者争争朝暮以令无穷……</p>
+        </section>
+    design:
+      columns: '1'
+      css_class: signature-section
 ---
