@@ -27,7 +27,7 @@ sections:
           </div>
           <div class="cv-custom-details">
             <section>
-              <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Professional Summary</h2>
+              <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
               <p>兼具音乐表演与电子音乐作曲的复合背景，同时自学了编程、深度学习以及音频插件开发；以第一作者身份完成了1篇ArXiv、2 篇 SSRN 预印本以及 2 篇正式期刊论文，并作为核心成员参与了教育部级产学研项目的落地，拥有音乐创作、表演、模型训练、音频插件落地的全栈努力。希望未来将这种‘艺术直觉’与工程的交叉能力带入到博士阶段的研究中。</p>
             </section>
             <section>
@@ -99,7 +99,7 @@ sections:
           <div class="cv-directory-column">
             <h3>Publications</h3>
             <ol>
-              <li><a href="#pub-gru-interactive-system">Real-time Human-Machine Interactive Music Generation System</a></li>
+              <li><a href="#pub-gru-interactive-system">LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System using Role-Aware GRU </a></li>
               <li><a href="#pub-chladnisonify">ChladniSonify</a></li>
               <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence</a></li>
               <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories of Tonal Transformation</a></li>
@@ -109,8 +109,8 @@ sections:
           <div class="cv-directory-column">
             <h3>Project & Research Experience</h3>
             <ol>
-              <li><a href="#project-lk-jam">LK Jam</a></li>
-              <li><a href="#project-vision-audio-mapping">VisionAudioMapping 音视联动映射</a></li>
+              <li><a href="#project-lk-jam">LK Ja 音频插件开发</a></li>
+              <li><a href="#project-vision-audio-mapping">VisionAudioMapping 插件开发</a></li>
               <li><a href="#project-sonic-structuring">Sonic Structuring · Layered Imaging · Collaborative Resonance</a></li>
               <li><a href="#project-qinmai-zhixu">Qinmai Zhixu</a></li>
               <li><a href="#project-vr-dual-stage-concert">Exploration of VR Live Interactive Remote Dual-Stage Concert</a></li>
@@ -144,7 +144,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: ArXiv, Open Source; Link:</span><a class="paper-link" href="#" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/LK_Jam.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -172,7 +172,7 @@ sections:
 
           <article id="pub-rules-probability-emergence" class="publication-item">
             <div class="publication-text">
-              <p><strong>Liu, Y., Liu, D., & Jin, Z. (2026). <em>Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches</em>.</strong></p>
+              <p><strong>Liu, Y., Liu, D., & Jin, Z. (2025). <em>Rules, Probability, and Emergence: A Comparative Study of Traditional Algorithmic Composition Approaches</em>.</strong></p>
               <ul>
                 <li>Categorized traditional algorithmic composition into symbolic, optimization, complex systems, and statistical models, detailing mechanisms from Markov chains to genetic algorithms.</li>
                 <li>Evaluated algorithms based on structural control, stylistic simulation, and innovation, concluding their enduring value in interpretability and human-computer collaboration.</li>
@@ -190,7 +190,7 @@ sections:
 
           <article id="pub-dual-trajectories-tonal-transformation" class="publication-item">
             <div class="publication-text">
-              <p><strong>Liu, Y., Liu, D., & Jin, Z. (2026). <em>Dual Trajectories of Tonal Transformation: A Multidimensional Comparative Study of Twelve-Tone Technique, Coltrane Changes, and the Integration of Bebop Elements</em>.</strong></p>
+              <p><strong>Liu, Y., Liu, D., & Jin, Z. (2025). <em>Dual Trajectories of Tonal Transformation: A Multidimensional Comparative Study of Twelve-Tone Technique, Coltrane Changes, and the Integration of Bebop Elements</em>.</strong></p>
               <ul>
                 <li>Systematically contrasted the atonal liberation of the twentieth-century classical twelve-tone technique with the multi-tonal fragmentation of Coltrane changes in jazz.</li>
                 <li>Analyzed seminal works across tonality, harmony, melody, rhythm, and musical philosophy, establishing a comprehensive comparative framework.</li>
@@ -205,13 +205,13 @@ sections:
 
           <article id="pub-vr-live-streaming" class="publication-item">
             <div class="publication-text">
-              <p><strong>Liu, Y., & Luan, H. (2026). <em>Research on VR Live Streaming Interaction for Cross-Regional Dual-Stage Concerts Based on Campus Network and 5G Convergence Technology</em>. China Journal of Broadband, XX(X), 166–168.</strong></p>
+              <p><strong>Liu, Y., & Luan, H. (2025). <em>Research on VR Live Streaming Interaction for Cross-Regional Dual-Stage Concerts Based on Campus Network and 5G Convergence Technology</em>. China Journal of Broadband, XX(X), 166–168.</strong></p>
               <ul>
                 <li>Proposed a dual-stage VR live-streaming architecture integrating campus LAN and 5G transmission to address latency and synchronization challenges in cross-regional collaborative music performance.</li>
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published; Link:</span><a class="paper-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
+              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/Research%20on%20VR%20Live%20Streaming%20Interaction.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -257,9 +257,7 @@ sections:
         ### VisionAudioMapping 音视联动映射
         **SYCM University-level Research Project — Core Researcher**
 
-        此项目为个人研究
-
-        **Nov 2025 – Nov 2026 (Expected)**
+         **此项目为个人研究 **
 
         - 本项目聚焦视觉 - 音频跨模态实时映射，是面向新媒体艺术与交互式音乐场景开发的轻量化技术方案。项目依托深度学习算法，搭建端到端音画转换系统，可将图像、动态视觉画面实时转化为对应音频与音乐内容，解决传统音视创作中映射逻辑主观、实时性不足、技术门槛高等问题
 
@@ -273,7 +271,7 @@ sections:
         </figure>
         </div>
 
-        <div id="project-vr-dual-stage-concert" class="project-feature-item project-text-only">
+        <div id="project-vr-dual-stage-concert" class="project-feature-item">
         <div class="project-feature-text">
 
         ### Exploration of VR Live Interactive Remote Dual-Stage Concert via 5G and Campus Network Integration
@@ -287,6 +285,12 @@ sections:
         - Project outcomes led to an approved follow-up grant: _Data Security and Information Assurance for Cross-Regional Dual-Stage Concerts via Campus Network and 5G_ (No. 250403601102843, Oct 2025–Oct 2026); continuing as core researcher and contributing to security model architecture design.
 
         </div>
+        <figure class="project-feature-figure">
+          <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
+            <source src="/5G.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </figure>
         </div>
 
         <div id="project-sonic-structuring" class="project-feature-item project-text-only">
@@ -333,6 +337,8 @@ sections:
         <section id="portfolio-content" class="portfolio-section-content" aria-label="Portfolio">
           <article class="portfolio-item">
             <h3>Whale Fall · Layered Shadows</h3>
+            <div class="publication-links"><span>------</span><span class="link-meta">Video:</span><a class="video-link" href="#" target="_blank" rel="noopener noreferrer">Video Link</a><span>------</span></div>
+            <img src="/Whale%20Fall%20%C2%B7%20Layered%20Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
             <p><strong>Original title:</strong> 《鲸落 叠影》</p>
             <p><strong>Type:</strong> Real-time Interactive Work</p>
             <p><strong>Concept:</strong></p>

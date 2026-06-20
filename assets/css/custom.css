@@ -323,7 +323,11 @@
   position: relative;
 }
 
-.publications-wide-layout,
+.publications-wide-layout {
+  margin-top: -1rem;
+  padding-top: 1.25rem;
+}
+
 .projects-centered-layout,
 .portfolio-section {
   margin-top: -2.5rem;
@@ -579,6 +583,15 @@ html {
 .portfolio-item p,
 .portfolio-item ol {
   margin-bottom: 0.7rem;
+}
+
+.portfolio-item img {
+  display: block;
+  width: min(100%, 760px);
+  max-height: 520px;
+  object-fit: contain;
+  margin: 0 auto 1.25rem;
+  border-radius: 0.75rem;
 }
 
 .personal-signature p {
