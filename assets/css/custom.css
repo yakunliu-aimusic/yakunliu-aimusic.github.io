@@ -654,7 +654,8 @@ html {
 }
 
 .portfolio-item p,
-.portfolio-item ol {
+.portfolio-item ol,
+.portfolio-item ul {
   margin-bottom: 0.7rem;
 }
 

@@ -99,26 +99,26 @@ sections:
           <div class="cv-directory-column">
             <h3>Publications</h3>
             <ol>
-              <li><a href="#pub-gru-interactive-system">LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System using Role-Aware GRU </a></li>
+              <li><a href="#pub-gru-interactive-system">LK Jam</a></li>
               <li><a href="#pub-chladnisonify">ChladniSonify</a></li>
               <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence</a></li>
-              <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories of Tonal Transformation</a></li>
-              <li><a href="#pub-vr-live-streaming">Research on VR Live Streaming Interaction</a></li>
+              <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories</a></li>
+              <li><a href="#pub-vr-live-streaming">VR Live Streaming</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
             <h3>Project & Research Experience</h3>
             <ol>
-              <li><a href="#project-lk-jam">LK Ja 音频插件开发</a></li>
-              <li><a href="#project-vision-audio-mapping">VisionAudioMapping 插件开发</a></li>
-              <li><a href="#project-sonic-structuring">Sonic Structuring · Layered Imaging · Collaborative Resonance</a></li>
-              <li><a href="#project-vr-dual-stage-concert">Exploration of VR Live Interactive Remote Dual-Stage Concert</a></li>
+              <li><a href="#project-lk-jam">LK Jam Plugin</a></li>
+              <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin</a></li>
+              <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert</a></li>
+              <li><a href="#project-sonic-structuring">AI Electroacoustic Composition</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
             <h3>Portfolio</h3>
             <ol>
-              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#portfolio-content">Whale Fall · Layered Shadows</a></li>
             </ol>
           </div>
         </div>
@@ -287,6 +287,7 @@ sections:
 
         </div>
         <figure class="project-feature-figure">
+          <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Completed</div></div>
           <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
             <source src="/5G.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -326,10 +327,10 @@ sections:
               <p><strong>Original title:</strong> 《鲸落 叠影》</p>
               <p><strong>Type:</strong> Real-time Interactive Work</p>
               <p><strong>Concept:</strong></p>
-              <ol>
+              <ul>
                 <li>Using AI embedded systems as a bridge between perception, interaction, and audiovisual expression.</li>
                 <li>xxxxxx.</li>
-              </ol>
+              </ul>
             </div>
             <figure class="portfolio-feature-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Video</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
