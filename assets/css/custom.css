@@ -477,6 +477,70 @@
   color: rgba(100, 116, 139, 0.75);
 }
 
+.publication-links-stacked {
+  flex-direction: column;
+  gap: 0.45rem;
+  line-height: 1.35;
+}
+
+.publication-links-stacked .publication-status {
+  color: rgb(51, 65, 85);
+  font-weight: 800;
+}
+
+.publication-link-row {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.publication-link-row span {
+  color: rgb(51, 65, 85) !important;
+  font-weight: 800;
+}
+
+.publication-link-row .icon-only-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(37, 99, 235, 0.35);
+  background: rgba(37, 99, 235, 0.08);
+  color: rgb(37, 99, 235);
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1;
+  text-decoration: none;
+  text-underline-offset: 0;
+}
+
+.publication-link-row .icon-only-link::before {
+  display: inline-block;
+}
+
+.publication-link-row .paper-link::before {
+  content: "P";
+}
+
+.publication-link-row .github-link::before {
+  content: "GH";
+  font-size: 0.62rem;
+}
+
+.publication-link-row .youtube-link::before {
+  content: "▶";
+  transform: translateX(0.04rem);
+}
+
+.publication-link-row .icon-only-link:hover {
+  color: rgb(29, 78, 216);
+  border-color: rgba(29, 78, 216, 0.55);
+  background: rgba(37, 99, 235, 0.14);
+}
+
 .publication-figure img {
   display: block;
   width: 100%;

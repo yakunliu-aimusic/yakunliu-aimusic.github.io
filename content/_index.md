@@ -136,7 +136,7 @@ sections:
         <div class="publication-list">
           <article id="pub-gru-interactive-system" class="publication-item">
             <div class="publication-text">
-              <p><strong>Liu, Y.,, Jin, Z, Luan, H. (2026). <em>LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System using Role-Aware GRU.</strong></p>
+              <p><strong>Liu, Y., Jin, Z., & Luan, H. (2026). <em>LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System Using Role-Aware GRU</em>.</strong></p>
               <ul>
                 <li>算法创新：提出带角色 / 乐句标识的稀疏事件三维编码 + 轻量化 GRU，解决 AI 无交互逻辑、推理延迟高的问题.</li>
                 <li>训练方案：设计三段递进训练法，分层教会模型和声、爵士句法、人机呼应对话逻辑.</li>
@@ -144,7 +144,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2606.21018" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/LK_Jam.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -162,7 +162,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: ArXiv, Open Source; Link:</span><a class="paper-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/ChladniSonify.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -180,7 +180,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: SSRN, Open Source; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer">Paper</a><a class="github-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: SSRN, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/Rules%2C%20Probability%2C%20and%20Emergence.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -198,7 +198,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: SSRN; Link:</span><a class="paper-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer">Paper</a><span>------</span></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: SSRN</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
               <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
@@ -211,7 +211,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links"><span>------</span><span class="link-meta">Status: Published, Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Published</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://github.com/yakunliu-aimusic/VR-Live-Interaction-for-Cross-Regional-Dual-Stage-Concerts" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/Research%20on%20VR%20Live%20Streaming%20Interaction.mp4" type="video/mp4">
                 Your browser does not support the video tag.
