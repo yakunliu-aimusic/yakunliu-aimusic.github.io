@@ -10,6 +10,49 @@
   max-width: 1320px;
 }
 
+.cv-language-switcher {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 999px;
+  background: rgba(248, 250, 252, 0.88);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12);
+  backdrop-filter: blur(10px);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.cv-language-label {
+  padding: 0 0.35rem 0 0.55rem;
+  color: rgba(71, 85, 105, 0.82);
+}
+
+.cv-language-switcher a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.35rem;
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  color: rgb(37, 99, 235);
+  text-decoration: none;
+}
+
+.cv-language-switcher a.active {
+  color: #fff;
+  background: rgb(37, 99, 235);
+}
+
+.cv-language-switcher a:not(.active):hover {
+  background: rgba(37, 99, 235, 0.09);
+}
+
 .cv-custom-hero {
   display: grid;
   grid-template-columns: minmax(300px, 30%) minmax(760px, 70%);

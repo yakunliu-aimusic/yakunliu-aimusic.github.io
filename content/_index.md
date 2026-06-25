@@ -6,6 +6,11 @@ sections:
     id: cv-hero
     content:
       text: |-
+        <div class="cv-language-switcher" aria-label="Language selector">
+          <span class="cv-language-label">Language</span>
+          <a class="active" href="/" aria-current="page">EN</a>
+          <a href="/zh/">中文</a>
+        </div>
         <section class="cv-custom-hero" aria-label="Yakun Liu biography">
           <div class="cv-custom-profile">
             <img class="cv-custom-avatar" src="/uploads/avatar.jpg" alt="Yakun Liu">
@@ -161,7 +166,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Under peer review, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/ChladniSonify.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -179,7 +184,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: SSRN, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Under peer review, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482599" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/MiniResearch-Projects" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/Rules%2C%20Probability%2C%20and%20Emergence.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -197,7 +202,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: SSRN</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Under peer review</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6482561" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
               <img src="/Dual%20Trajectories%20of%20Tonal%20Transformation.png" alt="Dual Trajectories of Tonal Transformation preview">
             </figure>
           </article>
