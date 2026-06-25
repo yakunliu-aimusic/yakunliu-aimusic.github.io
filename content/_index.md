@@ -112,7 +112,6 @@ sections:
               <li><a href="#project-lk-jam">LK Ja 音频插件开发</a></li>
               <li><a href="#project-vision-audio-mapping">VisionAudioMapping 插件开发</a></li>
               <li><a href="#project-sonic-structuring">Sonic Structuring · Layered Imaging · Collaborative Resonance</a></li>
-              <li><a href="#project-qinmai-zhixu">Qinmai Zhixu</a></li>
               <li><a href="#project-vr-dual-stage-concert">Exploration of VR Live Interactive Remote Dual-Stage Concert</a></li>
             </ol>
           </div>
@@ -162,7 +161,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2605.09846" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/ChladniSonify-Real-time-Visual-Acoustic-Mapping-Library-for-Chladni-New-Media-Art" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/ChladniSonify.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -235,15 +234,15 @@ sections:
         ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
         **Independent Research Project — Principal Researcher**
 
-        此项目为个人研究
+        Advisor: To be added
 
         **2026**
 
-        - 此项目为LK Jam的工程落地.
+        - This project focuses on the engineering implementation of LK Jam, including real-time plugin deployment, low-latency inference, and interactive human-AI musical response.
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><span class="link-meta">Status:Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+          <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Open Source, Tutorial</div><div class="publication-link-row"><span>Link:</span><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=ipnVo04R7bA" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
           <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
             <source src="/LK%20Jam_UI.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -257,13 +256,15 @@ sections:
         ### VisionAudioMapping 音视联动映射
         **SYCM University-level Research Project — Core Researcher**
 
-         **此项目为个人研究 **
+        Advisor: To be added
 
-        - 本项目聚焦视觉 - 音频跨模态实时映射，是面向新媒体艺术与交互式音乐场景开发的轻量化技术方案。项目依托深度学习算法，搭建端到端音画转换系统，可将图像、动态视觉画面实时转化为对应音频与音乐内容，解决传统音视创作中映射逻辑主观、实时性不足、技术门槛高等问题
+        **Nov 2025 – Nov 2026 (Expected)**
+
+        - This project explores real-time visual-audio cross-modal mapping for new media art and interactive music scenarios, using lightweight deep learning pipelines to convert visual input into corresponding audio and musical materials.
 
         </div>
         <figure class="project-feature-figure">
-          <div class="publication-links"><span>------</span><span class="link-meta">Status:Open Source; Link:</span><a class="github-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer">GitHub</a><span>------</span></div>
+          <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Open Source, Tutorial</div><div class="publication-link-row"><span>Link:</span><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/VisionAudioMapping" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=6W_gYDyebS4" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
           <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
             <source src="/VisionAudioMapping.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -308,22 +309,6 @@ sections:
 
         </div>
         </div>
-
-        <div id="project-qinmai-zhixu" class="project-feature-item project-text-only">
-        <div class="project-feature-text">
-
-        ### Qinmai Zhixu: AI Rebirth of Endangered Guqin Melodies
-        **Challenge Cup Entrepreneurship Competition — Core Researcher & Lead Developer**
-
-        Advisors: Prof. Xiaolong Liu (CCOM), Assoc. Prof. Dong Liu (SYCM), Assoc. Prof. Chen Zhang (SYCM), Senior Eng. Hai Luan (SYCM)
-
-        **Dec 2025 – Jun 2026 (Expected)**
-
-        - Engineered an end-to-end GRU-based generative model pipeline, including specialized Guqin MIDI dataset curation, feature engineering, model training, and real-time MIDI output deployment.
-        - Framed the technical system within intangible heritage documentation and digital reconstruction of the Zhucheng Guqin school.
-
-        </div>
-        </div>
     design:
       columns: '1'
       css_class: cv-text-section cv-left-layout projects-centered-layout
@@ -335,17 +320,21 @@ sections:
       subtitle: Portfolio
       text: |-
         <section id="portfolio-content" class="portfolio-section-content" aria-label="Portfolio">
-          <article class="portfolio-item">
-            <h3>Whale Fall · Layered Shadows</h3>
-            <div class="publication-links"><span>------</span><span class="link-meta">Video:</span><a class="video-link" href="#" target="_blank" rel="noopener noreferrer">Video Link</a><span>------</span></div>
-            <img src="/Whale%20Fall%20%C2%B7%20Layered%20Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
-            <p><strong>Original title:</strong> 《鲸落 叠影》</p>
-            <p><strong>Type:</strong> Real-time Interactive Work</p>
-            <p><strong>Concept:</strong></p>
-            <ol>
-              <li>Using AI embedded systems as a bridge between perception, interaction, and audiovisual expression.</li>
-              <li>xxxxxx.</li>
-            </ol>
+          <article class="portfolio-item portfolio-feature-item">
+            <div class="portfolio-feature-text">
+              <h3>Whale Fall · Layered Shadows</h3>
+              <p><strong>Original title:</strong> 《鲸落 叠影》</p>
+              <p><strong>Type:</strong> Real-time Interactive Work</p>
+              <p><strong>Concept:</strong></p>
+              <ol>
+                <li>Using AI embedded systems as a bridge between perception, interaction, and audiovisual expression.</li>
+                <li>xxxxxx.</li>
+              </ol>
+            </div>
+            <figure class="portfolio-feature-figure">
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Video</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
+              <img src="/Whale%20Fall%20%C2%B7%20Layered%20Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
+            </figure>
           </article>
         </section>
     design:
