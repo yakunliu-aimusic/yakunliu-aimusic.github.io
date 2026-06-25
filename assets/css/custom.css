@@ -11,13 +11,11 @@
 }
 
 .cv-language-switcher {
-  position: fixed;
-  top: 1rem;
-  left: 1rem;
-  z-index: 60;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  width: max-content;
+  margin-bottom: 1.15rem;
   padding: 0.35rem;
   border: 1px solid rgba(148, 163, 184, 0.28);
   border-radius: 999px;
@@ -66,6 +64,10 @@
 
 .cv-custom-profile {
   text-align: center;
+}
+
+.cv-custom-details {
+  transform: translateY(1.35rem);
 }
 
 .cv-custom-avatar {

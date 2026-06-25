@@ -6,11 +6,6 @@ sections:
     id: cv-hero
     content:
       text: |-
-        <div class="cv-language-switcher" aria-label="Language selector">
-          <span class="cv-language-label">Language</span>
-          <a class="active" href="/" aria-current="page">EN</a>
-          <a href="/zh/">中文</a>
-        </div>
         <section class="cv-custom-hero" aria-label="Yakun Liu biography">
           <div class="cv-custom-profile">
             <img class="cv-custom-avatar" src="/uploads/avatar.jpg" alt="Yakun Liu">
@@ -31,6 +26,11 @@ sections:
             </div>
           </div>
           <div class="cv-custom-details">
+            <div class="cv-language-switcher" aria-label="Language selector">
+              <span class="cv-language-label">Language</span>
+              <a class="active" href="/" aria-current="page">EN</a>
+              <a href="/zh/">中文</a>
+            </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
               <p>兼具音乐表演与电子音乐作曲的复合背景，同时自学了编程、深度学习以及音频插件开发；以第一作者身份完成了1篇ArXiv、2 篇 SSRN 预印本以及 2 篇正式期刊论文，并作为核心成员参与了教育部级产学研项目的落地，拥有音乐创作、表演、模型训练、音频插件落地的全栈努力。希望未来将这种‘艺术直觉’与工程的交叉能力带入到博士阶段的研究中。</p>
