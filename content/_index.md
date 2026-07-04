@@ -104,7 +104,7 @@ sections:
           <div class="cv-directory-column">
             <h3>Publications</h3>
             <ol>
-              <li><a href="#pub-gru-interactive-system">LK Jam</a></li>
+              <li><a href="#pub-gru-interactive-system">Role-Aware GRU Interactive Music Generation System</a></li>
               <li><a href="#pub-chladnisonify">ChladniSonify</a></li>
               <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence</a></li>
               <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories</a></li>
