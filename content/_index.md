@@ -117,6 +117,8 @@ sections:
               <li><a href="#project-lk-jam">LK Jam Plugin</a></li>
               <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin</a></li>
               <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert</a></li>
+              <li><a href="#project-diejing-shengcheng">叠境·声成</a></li>
+              <li><a href="#project-ai-orchestration-global-folk">AI Intelligent Orchestration</a></li>
               <li><a href="#project-sonic-structuring">AI Electroacoustic Composition</a></li>
             </ol>
           </div>
@@ -298,6 +300,40 @@ sections:
             Your browser does not support the video tag.
           </video>
         </figure>
+        </div>
+
+        <div id="project-diejing-shengcheng" class="project-feature-item project-text-only">
+        <div class="project-feature-text">
+
+        ### 《叠境·声成》沉浸式多维电子音乐展演——生成式AI音乐创作算法逻辑、模型架构与创新应用研究
+        **辽宁省教育厅科研项目 — 核心研发成员**
+
+        指导教师：XXX副教授（沈阳音乐学院）、栾海高级工程师（沈阳音乐学院）；团队成员：xxx
+
+        **2026年6月 — 2029年6月**
+
+        - 探索生成式AI与多维电子音乐交叉研究边界，搭建沉浸式XR交互展演平台，设计端到端AI音乐生成交互逻辑，搭建7.1全景声空间化声场系统用于现场实验展演。
+        - 拆解AI音乐创作底层算法逻辑与模型架构，针对沉浸式声画联动场景优化模型推理效率，完成多版实时AI电子音乐生成工具迭代开发。
+        - 独立撰写项目专项研究论文，创作多首沉浸式原创电子声学作品，完成配套数字展演音视频成果、技术开发手册等核心产出。
+
+        </div>
+        </div>
+
+        <div id="project-ai-orchestration-global-folk" class="project-feature-item project-text-only">
+        <div class="project-feature-text">
+
+        ### AI智能配器赋能环球民乐原创旋律与沉浸式数字舞台展演实践
+        **辽宁省教育厅科研项目 — 项目负责人**
+
+        指导教师：李宜洛副教授（沈阳音乐学院）、栾海高级工程师（沈阳音乐学院）、张优涵讲师（沈阳音乐学院）；团队成员：刘雅坤、闻克睿、王熙睿
+
+        **2026年6月 — 2029年6月**
+
+        - 以全球多地域民族器乐音色为基底，搭建适配民乐的AI智能自动配器模型，完成跨文化民乐原创旋律生成算法开发，打通民乐素材与生成式AI的适配壁垒。
+        - 搭建沉浸式数字交互舞台系统，融合多通道空间声学、实时动态影像联动技术，完成多套民乐沉浸式现场展演落地方案，开展线下实验公演。
+        - 统筹项目整体框架设计与核心民乐作曲创作，完成项目研究报告、配套原创民乐作品、数字舞台展演工程案例全套成果产出。
+
+        </div>
         </div>
 
         <div id="project-sonic-structuring" class="project-feature-item project-text-only">
