@@ -29,12 +29,11 @@ sections:
             <div class="cv-language-switcher" aria-label="Language selector">
               <span class="cv-language-label">Language</span>
               <a class="active" href="/" aria-current="page">EN</a>
-              <a href="/zh/">中文</a>
+              <a href="/zh/">Chinese</a>
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
-              <p>IEEE 计算机学会学生会员、中国计算机学会（CCF）学生会员、沈阳市计算机学会(SCF)会员。
-              兼具音乐表演与电子音乐作曲的复合背景，同时自学了编程、深度学习以及音频插件开发；以第一作者身份完成了1篇ArXiv、2 篇 SSRN 预印本以及 2 篇正式期刊论文，并作为核心成员参与了教育部级产学研项目的落地，拥有音乐创作、表演、模型训练、音频插件落地的全栈努力。希望未来将这种‘艺术直觉’与工程的交叉能力带入到博士阶段的研究中。</p>
+              <p>Student Member of the IEEE Computer Society, Student Member of the China Computer Federation (CCF), and Member of the Shenyang Computer Federation (SCF). Yakun Liu has an interdisciplinary background in music performance and electroacoustic composition, with self-directed training in programming, deep learning, and audio plugin development. As first author, he has completed one arXiv preprint, two SSRN preprints, and two peer-reviewed journal articles, and has contributed as a core member to the implementation of a Ministry of Education industry-university-research project. His work integrates music creation, performance, model training, and audio plugin deployment, and he aims to bring this combined artistic intuition and engineering capability into doctoral-level research.</p>
             </section>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
@@ -118,7 +117,7 @@ sections:
               <li><a href="#project-lk-jam">LK Jam Plugin</a></li>
               <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin</a></li>
               <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert</a></li>
-              <li><a href="#project-diejing-shengcheng">叠境·声成</a></li>
+              <li><a href="#project-diejing-shengcheng">Layered Realms · Sonic Emergence</a></li>
               <li><a href="#project-ai-orchestration-global-folk">AI Intelligent Orchestration</a></li>
               <li><a href="#project-sonic-structuring">AI Electroacoustic Composition</a></li>
             </ol>
@@ -145,9 +144,9 @@ sections:
             <div class="publication-text">
               <p><strong>Liu, Y., Jin, Z., & Luan, H. (2026). <em>LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System Using Role-Aware GRU</em>.</strong></p>
               <ul>
-                <li>算法创新：提出带角色 / 乐句标识的稀疏事件三维编码 + 轻量化 GRU，解决 AI 无交互逻辑、推理延迟高的问题.</li>
-                <li>训练方案：设计三段递进训练法，分层教会模型和声、爵士句法、人机呼应对话逻辑.</li>
-                <li>工程落地：基于 JUCE+RTNeural 搭建无锁三线程 VST3 插件架构，实现零分配硬实时推理，消除 DAW 爆音.</li>
+                <li>Proposed a sparse event-based three-dimensional encoding scheme with role and phrase identifiers, combined with a lightweight GRU architecture to address weak interaction modeling and high inference latency in AI music systems.</li>
+                <li>Designed a three-stage progressive training strategy that incrementally teaches harmonic structure, jazz syntax, and human-AI call-and-response interaction.</li>
+                <li>Implemented a JUCE and RTNeural-based VST3 plugin using a lock-free three-thread architecture, enabling allocation-free hard real-time inference and reducing audio dropouts in DAW environments.</li>
               </ul>
             </div>
             <figure class="publication-figure">
@@ -242,9 +241,9 @@ sections:
         ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
         **Independent Research Project — Principal Researcher**
 
-        Advisor: 刘栋、栾海
+        Advisor: Assoc. Prof. Dong Liu, Senior Eng. Hai Luan
 
-        **开始 2025年 —— 至今**
+        **Started 2025 – Present**
 
         - This project focuses on the engineering implementation of LK Jam, including real-time plugin deployment, low-latency inference, and interactive human-AI musical response.
 
@@ -261,12 +260,12 @@ sections:
         <div id="project-vision-audio-mapping" class="project-feature-item">
         <div class="project-feature-text">
 
-        ### VisionAudioMapping 音视联动映射
+        ### VisionAudioMapping: Audio-Visual Interactive Mapping
         **SYCM University-level Research Project — Core Researcher**
 
-        Advisor: 刘栋、栾海
+        Advisor: Assoc. Prof. Dong Liu, Senior Eng. Hai Luan
 
-        **开始 2025年 —— 至今**
+        **Started 2025 – Present**
 
         - This project explores real-time visual-audio cross-modal mapping for new media art and interactive music scenarios, using lightweight deep learning pipelines to convert visual input into corresponding audio and musical materials.
 
@@ -306,16 +305,16 @@ sections:
         <div id="project-diejing-shengcheng" class="project-feature-item project-text-only">
         <div class="project-feature-text">
 
-        ### 《叠境·声成》沉浸式多维电子音乐展演——生成式AI音乐创作算法逻辑、模型架构与创新应用研究
-        **辽宁省教育厅科研项目 — 核心研发成员**
+        ### Layered Realms · Sonic Emergence: Algorithmic Logic, Model Architecture, and Innovative Applications of Generative AI Music Creation for Immersive Multidimensional Electroacoustic Performance
+        **Liaoning Provincial Department of Education Research Project — Core Research Member**
 
-        指导教师：刘栋副教授（沈阳音乐学院）
+        Advisor: Assoc. Prof. Dong Liu (Shenyang Conservatory of Music)
 
-        **2026年6月 — 2029年6月(预计)**
+        **June 2026 – June 2029 (Expected)**
 
-        - 探索生成式AI与多维电子音乐交叉研究边界，搭建沉浸式XR交互展演平台，设计端到端AI音乐生成交互逻辑，搭建7.1全景声空间化声场系统用于现场实验展演。
-        - 拆解AI音乐创作底层算法逻辑与模型架构，针对沉浸式声画联动场景优化模型推理效率，完成多版实时AI电子音乐生成工具迭代开发。
-        - 本人负责独立撰写项目专项研究论文，创作多首沉浸式原创电子声学作品，完成配套数字展演音视频成果、技术开发手册等核心产出。
+        - Explores the interdisciplinary boundary between generative AI and multidimensional electroacoustic music by building an immersive XR interactive performance platform, designing end-to-end AI music generation interaction logic, and constructing a 7.1-channel spatial audio system for live experimental performance.
+        - Analyzes the underlying algorithmic logic and model architectures of AI-assisted music creation, optimizes model inference efficiency for immersive audio-visual interaction scenarios, and iteratively develops multiple versions of real-time AI electroacoustic music generation tools.
+        - Responsible for independently drafting the project-specific research paper, composing original immersive electroacoustic works, and producing supporting digital performance audiovisual outputs and technical development documentation.
 
         </div>
         </div>
@@ -323,15 +322,15 @@ sections:
         <div id="project-ai-orchestration-global-folk" class="project-feature-item project-text-only">
         <div class="project-feature-text">
 
-        ### AI智能配器赋能环球民乐原创旋律与沉浸式数字舞台展演实践
-        **辽宁省教育厅科研项目 — 核心研究成员**
+        ### AI-Enabled Intelligent Orchestration for Original Global Folk-Music Melodies and Immersive Digital Stage Performance Practice
+        **Liaoning Provincial Department of Education Research Project — Core Research Member**
 
-        指导教师：陈仁杰(沈阳音乐学院)、李宜洛副教授（沈阳音乐学院）、栾海高级工程师（沈阳音乐学院）、张优涵讲师（沈阳音乐学院）
+        Advisors: Renjie Chen (Shenyang Conservatory of Music), Assoc. Prof. Yiming Li (Shenyang Conservatory of Music), Senior Eng. Hai Luan (Shenyang Conservatory of Music)
 
-        **2026年6月 — 2029年6月(预计)**
+        **June 2026 – June 2029 (Expected)**
 
-        - 搭建沉浸式数字交互舞台系统，融合多通道空间声学、实时动态影像联动技术，完成多套民乐沉浸式现场展演落地方案，开展线下实验公演。
-        - 本人负责统筹项目整体技术落地设计与音乐创作，数字舞台展演工程案例全套成果产出。
+        - Develops an immersive digital interactive stage system integrating multichannel spatial acoustics and real-time dynamic visual interaction, supporting multiple implementation plans for immersive folk-music stage performances and offline experimental concerts.
+        - Responsible for coordinating the technical implementation framework and music creation, and for producing a complete set of outputs for digital stage performance engineering case studies.
 
         </div>
         </div>
@@ -364,13 +363,13 @@ sections:
         <section id="portfolio-content" class="portfolio-section-content" aria-label="Portfolio">
           <article class="portfolio-item portfolio-feature-item">
             <div class="portfolio-feature-text">
-              <h3>Whale Fall · Layered Shadows《鲸落 叠影》</h3>
-              <p><strong>作曲/萨克斯演奏/插件开发:</strong> 刘雅坤</p>
+              <h3>Whale Fall · Layered Shadows</h3>
+              <p><strong>Composition / Saxophone Performance / Plugin Development:</strong> Yakun Liu</p>
               <p><strong>Type:</strong> Real-time Interactive Work</p>
               <p><strong>Concept:</strong></p>
               <ul>
-                <li>以嵌入式人工智能插件为载体，搭建摄像头对克拉德尼图案实时捕捉映射频率、实现一种在实时交互与视听艺术表达之间的跨模态映射机制。</li>
-                <li>作品依托 GRMTools、Waves、Zynaptiq、FabFilter 系列 VST 效果器，完成各类声音素材的调制、扭曲与形态改造。</li>
+                <li>Uses an embedded AI plugin as the core medium to build a cross-modal mapping mechanism in which camera-captured Chladni patterns are analyzed in real time and translated into frequency-related sonic responses for interactive audiovisual expression.</li>
+                <li>Employs GRM Tools, Waves, Zynaptiq, and FabFilter VST effects to modulate, distort, and transform diverse sound materials into an evolving electroacoustic texture.</li>
               </ul>
             </div>
             <figure class="portfolio-feature-figure">
@@ -388,10 +387,10 @@ sections:
     content:
       text: |-
         <section class="personal-signature" aria-label="Personal Signature">
-          <p>可惜的是，艺术院校不教反向传播，计算机系不分析肖邦夜曲。</p>
-          <p class="signature-en">Unfortunately, art schools don't teach backpropagation, and computer science departments don't analyze Chopin's Nocturnes.</p>
-          <p style="margin-top:1rem;">未来一片更为广阔的天地亟待人们去探索，为变者争争朝暮以令无穷……</p>
-          <p class="signature-en">A much broader world awaits exploration, racing against time for the ever-changing...</p>
+          <p>What is regrettable is that art schools rarely teach backpropagation, while computer science departments rarely analyze Chopin's Nocturnes.</p>
+          <p class="signature-en">Between artistic intuition and computational reasoning lies a wider territory still waiting to be explored.</p>
+          <p style="margin-top:1rem;">A broader intellectual landscape awaits those willing to work at the boundary of sound, systems, and learning.</p>
+          <p class="signature-en">For those who embrace transformation, the task is to contend with the present while imagining what remains possible.</p>
         </section>
     design:
       columns: '1'
