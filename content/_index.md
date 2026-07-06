@@ -374,7 +374,7 @@ sections:
             </div>
             <figure class="portfolio-feature-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Video</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
-              <img src="/Whale%20Fall%20%C2%B7%20Layered%20Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
+              <img src="/Whale-Fall-Layered-Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
             </figure>
           </article>
         </section>
