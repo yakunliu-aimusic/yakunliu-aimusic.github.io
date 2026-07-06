@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Chinese
 draft: false
 sections:
   - block: markdown
@@ -28,8 +28,8 @@ sections:
           <div class="cv-custom-details">
             <div class="cv-language-switcher" aria-label="Language selector">
               <span class="cv-language-label">Language</span>
-              <a class="active" href="/" aria-current="page">EN</a>
-              <a href="/zh/">Chinese</a>
+              <a href="/">EN</a>
+              <a class="active" href="/zh/" aria-current="page">Chinese</a>
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
@@ -387,7 +387,7 @@ sections:
     content:
       text: |-
         <section class="personal-signature" aria-label="Personal Signature">
-          <p>What is regrettable is that art schools do not teach backpropagation, while computer science departments do not analyze Chopin's Nocturnes either.</p>
+          <p>What is regrettable is that art schools rarely teach backpropagation, while computer science departments rarely analyze Chopin's Nocturnes.</p>
           <p class="signature-en">Between artistic intuition and computational reasoning lies a wider territory still waiting to be explored.</p>
           <p style="margin-top:1rem;">A broader intellectual landscape awaits those willing to work at the boundary of sound, systems, and learning.</p>
           <p class="signature-en">For those who embrace transformation, the task is to contend with the present while imagining what remains possible.</p>
