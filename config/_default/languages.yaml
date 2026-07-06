@@ -5,8 +5,10 @@
 # Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
 
-# The Chinese route is currently implemented as a regular page at content/zh/_index.md.
-# This avoids restructuring the whole site into separate content/en and content/zh trees.
+zh:
+  locale: zh-Hans
+  contentDir: content/zh
+  title: Yakun Liu
+  params:
+    description: Yakun Liu's Chinese academic portfolio and CV.
