@@ -33,7 +33,8 @@ sections:
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
-              <p>IEEE 计算机学会（IEEE Computer Society）学生会员、中国计算机学会（CCF）学生会员、沈阳市计算机学会(SCF)会员，兼具音乐表演与电子音乐作曲的复合背景，同时自学了编程、深度学习以及音频插件开发；以第一作者身份完成了1篇ArXiv、2 篇 SSRN 预印本以及 2 篇正式期刊论文，并作为核心成员参与了教育部级产学研项目的落地，拥有音乐创作、表演、模型训练、音频插件落地的全栈努力。希望未来将这种‘艺术直觉’与工程的交叉能力带入到博士阶段的研究中。</p>
+              <p>IEEE 计算机学会学生会员、中国计算机学会（CCF）学生会员、沈阳市计算机学会(SCF)会员。
+              兼具音乐表演与电子音乐作曲的复合背景，同时自学了编程、深度学习以及音频插件开发；以第一作者身份完成了1篇ArXiv、2 篇 SSRN 预印本以及 2 篇正式期刊论文，并作为核心成员参与了教育部级产学研项目的落地，拥有音乐创作、表演、模型训练、音频插件落地的全栈努力。希望未来将这种‘艺术直觉’与工程的交叉能力带入到博士阶段的研究中。</p>
             </section>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
@@ -211,7 +212,7 @@ sections:
 
           <article id="pub-vr-live-streaming" class="publication-item">
             <div class="publication-text">
-              <p><strong>Liu, Y., & Luan, H. (2025). <em>Research on VR Live Streaming Interaction for Cross-Regional Dual-Stage Concerts Based on Campus Network and 5G Convergence Technology</em>. China Journal of Broadband, XX(X), 166–168.</strong></p>
+              <p><strong>Liu, Y., & Luan, H. (2025). <em>Research on VR Live Streaming Interaction for Cross-Regional Dual-Stage Concerts Based on Campus Network and 5G Convergence Technology</em>. China Journal of Broadband, 22(4), 166–168.</strong></p>
               <ul>
                 <li>Proposed a dual-stage VR live-streaming architecture integrating campus LAN and 5G transmission to address latency and synchronization challenges in cross-regional collaborative music performance.</li>
               </ul>
@@ -241,9 +242,9 @@ sections:
         ### LK Jam – A Real-Time Interactive AI System for Jam Sessions Based on the GRU Model
         **Independent Research Project — Principal Researcher**
 
-        Advisor: To be added
+        Advisor: 刘栋、栾海
 
-        **2026**
+        **开始 2025年 —— 至今**
 
         - This project focuses on the engineering implementation of LK Jam, including real-time plugin deployment, low-latency inference, and interactive human-AI musical response.
 
@@ -263,9 +264,9 @@ sections:
         ### VisionAudioMapping 音视联动映射
         **SYCM University-level Research Project — Core Researcher**
 
-        Advisor: To be added
+        Advisor: 刘栋、栾海
 
-        **Nov 2025 – Nov 2026 (Expected)**
+        **开始 2025年 —— 至今**
 
         - This project explores real-time visual-audio cross-modal mapping for new media art and interactive music scenarios, using lightweight deep learning pipelines to convert visual input into corresponding audio and musical materials.
 
@@ -308,13 +309,13 @@ sections:
         ### 《叠境·声成》沉浸式多维电子音乐展演——生成式AI音乐创作算法逻辑、模型架构与创新应用研究
         **辽宁省教育厅科研项目 — 核心研发成员**
 
-        指导教师：XXX副教授（沈阳音乐学院）、栾海高级工程师（沈阳音乐学院）；团队成员：xxx
+        指导教师：刘栋副教授（沈阳音乐学院）
 
         **2026年6月 — 2029年6月(预计)**
 
         - 探索生成式AI与多维电子音乐交叉研究边界，搭建沉浸式XR交互展演平台，设计端到端AI音乐生成交互逻辑，搭建7.1全景声空间化声场系统用于现场实验展演。
         - 拆解AI音乐创作底层算法逻辑与模型架构，针对沉浸式声画联动场景优化模型推理效率，完成多版实时AI电子音乐生成工具迭代开发。
-        - 独立撰写项目专项研究论文，创作多首沉浸式原创电子声学作品，完成配套数字展演音视频成果、技术开发手册等核心产出。
+        - 本人负责独立撰写项目专项研究论文，创作多首沉浸式原创电子声学作品，完成配套数字展演音视频成果、技术开发手册等核心产出。
 
         </div>
         </div>
@@ -323,15 +324,14 @@ sections:
         <div class="project-feature-text">
 
         ### AI智能配器赋能环球民乐原创旋律与沉浸式数字舞台展演实践
-        **辽宁省教育厅科研项目 — 项目负责人**
+        **辽宁省教育厅科研项目 — 核心研究成员**
 
-        指导教师：李宜洛副教授（沈阳音乐学院）、栾海高级工程师（沈阳音乐学院）、张优涵讲师（沈阳音乐学院）；团队成员：刘雅坤、闻克睿、王熙睿
+        指导教师：陈仁杰(沈阳音乐学院)、李宜洛副教授（沈阳音乐学院）、栾海高级工程师（沈阳音乐学院）、张优涵讲师（沈阳音乐学院）
 
         **2026年6月 — 2029年6月(预计)**
 
-        - 以全球多地域民族器乐音色为基底，搭建适配民乐的AI智能自动配器模型，完成跨文化民乐原创旋律生成算法开发，打通民乐素材与生成式AI的适配壁垒。
         - 搭建沉浸式数字交互舞台系统，融合多通道空间声学、实时动态影像联动技术，完成多套民乐沉浸式现场展演落地方案，开展线下实验公演。
-        - 统筹项目整体框架设计与核心民乐作曲创作，完成项目研究报告、配套原创民乐作品、数字舞台展演工程案例全套成果产出。
+        - 本人负责统筹项目整体技术落地设计与音乐创作，数字舞台展演工程案例全套成果产出。
 
         </div>
         </div>
@@ -364,13 +364,13 @@ sections:
         <section id="portfolio-content" class="portfolio-section-content" aria-label="Portfolio">
           <article class="portfolio-item portfolio-feature-item">
             <div class="portfolio-feature-text">
-              <h3>Whale Fall · Layered Shadows</h3>
-              <p><strong>Original title:</strong> 《鲸落 叠影》</p>
+              <h3>Whale Fall · Layered Shadows《鲸落 叠影》</h3>
+              <p><strong>作曲/萨克斯演奏/插件开发:</strong> 刘雅坤</p>
               <p><strong>Type:</strong> Real-time Interactive Work</p>
               <p><strong>Concept:</strong></p>
               <ul>
-                <li>Using AI embedded systems as a bridge between perception, interaction, and audiovisual expression.</li>
-                <li>xxxxxx.</li>
+                <li>以嵌入式人工智能插件为载体，搭建摄像头对克拉德尼图案实时捕捉映射频率、实现一种在实时交互与视听艺术表达之间的跨模态映射机制。</li>
+                <li>作品依托 GRMTools、Waves、Zynaptiq、FabFilter 系列 VST 效果器，完成各类声音素材的调制、扭曲与形态改造。</li>
               </ul>
             </div>
             <figure class="portfolio-feature-figure">
