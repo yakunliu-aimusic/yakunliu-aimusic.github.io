@@ -29,7 +29,7 @@ sections:
             <div class="cv-language-switcher" aria-label="Language selector">
               <span class="cv-language-label">Language</span>
               <a class="active" href="/" aria-current="page">EN</a>
-              <a href="/zh/">Chinese</a>
+              <span class="disabled" aria-disabled="true">Chinese</span>
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>

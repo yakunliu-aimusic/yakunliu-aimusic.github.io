@@ -5,10 +5,8 @@
 # Default language
 en:
   locale: en-us
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
 
-zh:
-  locale: zh-Hans
-  contentDir: content/zh
-  title: Yakun Liu
-  params:
-    description: Yakun Liu's Chinese academic portfolio and CV.
+# Chinese translation is intentionally not enabled yet.
+# The visible language switcher currently acts as a non-navigating UI placeholder.

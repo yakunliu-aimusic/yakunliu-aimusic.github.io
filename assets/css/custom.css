@@ -31,7 +31,8 @@
   color: rgba(71, 85, 105, 0.82);
 }
 
-.cv-language-switcher a {
+.cv-language-switcher a,
+.cv-language-switcher .disabled {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +50,15 @@
 
 .cv-language-switcher a:not(.active):hover {
   background: rgba(37, 99, 235, 0.09);
+}
+
+.cv-language-switcher .disabled {
+  color: rgba(100, 116, 139, 0.65);
+  cursor: not-allowed;
+}
+
+.cv-language-switcher .disabled:hover {
+  background: transparent;
 }
 
 .cv-custom-hero {
