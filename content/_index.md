@@ -235,10 +235,8 @@ sections:
             <div class="publication-text">
               <p><strong>Liu, Y., Jin, Z., Luan, H., Liu, D., & Li, X. (2026). <em>From Textural Counterpoint to Feature Encoding: A Multi-Dimensional Machine Representation Study of Haydn's "The Lark" Integrating Electroacoustic Analysis</em>. ArXiv preprint.</strong></p>
               <ul>
-                <li>Investigates Haydn's String Quartet in D major, Op. 64 No. 5, "The Lark," as a chamber-music model of voice-role allocation and dynamic interaction, highlighting its relevance to human-AI collaborative composition.</li>
-                <li>Develops a research framework that connects qualitative classical-form analysis, electroacoustic quantitative measurement, and machine-representation reconstruction.</li>
-                <li>Uses DAW-based spectral and dynamic analysis to translate perceptual listening observations into measurable acoustic features, replacing rigid quantization grids with event-based timestamps and role-aware encoding.</li>
-                <li>Bridges classical music analysis, electroacoustic feature mapping, and symbolic AI generation, providing a theoretical basis for interactive music systems with role awareness and other-oriented musical response.</li>
+                <li>Uses Haydn's String Quartet in D major, Op. 64 No. 5, "The Lark," as the object of study, focusing on the chamber-music logic of voice-role allocation and dynamic interaction, and discussing its relevance to human-AI collaborative composition.</li>
+                <li>Constructs a complete research paradigm of "qualitative classical-form analysis — electroacoustic quantitative measurement — machine-representation reconstruction." DAW-based spectral tools are used to translate auditory perception into quantitative acoustic indicators, while event timestamps and role-aware encoding are integrated as a low-level feature-extraction strategy. The study connects classical music analysis, electroacoustic mapping, and AI symbolic generation, laying a theoretical foundation for human-AI collaborative music systems with other-aware interaction.</li>
               </ul>
             </div>
             <figure class="publication-figure media-large-figure">
@@ -250,12 +248,8 @@ sections:
           <article id="pub-heterogeneous-network-security" class="publication-item project-text-only">
             <div class="publication-text">
               <p><strong>Luan, H., Liu, Y., & Jin, Z. (2026). <em>Three-Layer Heterogeneous Security Protection Mechanism for Cross-Regional Dual-Stage Performing-Arts Converged Networks</em>. Computer Engineering and Applications.</strong></p>
-              <ul>
-                <li>Addresses security risks in campus-network and 5G heterogeneous converged networks for cross-regional dual-stage performances, including link hijacking, control-command injection, and performance-script tampering.</li>
-                <li>Proposes a cross-layer defense-in-depth architecture spanning the service, control, and transport layers, coordinated by a unified security-control platform.</li>
-                <li>Combines adaptive AES256-GCM/ChaCha20 encryption, second-level key rotation, zero-trust security-domain isolation, temporal-command validation, RSA-2048 plus SHA256 signature verification, and fine-grained atomic service-unit access control.</li>
-                <li>Experimental results indicate that the mechanism keeps audio-video synchronization deviation within 6 ms, reduces link-hijacking success rate to 3.4%, and achieves 97.2% control-command injection interception and 98.5% business-script tampering interception.</li>
-                <li>Provides a deployable security baseline for remote rehearsal, VR holographic performance, online ensemble classrooms, and other low-latency multimedia performing-arts network scenarios.</li>
+              <ul>              
+                <li>Proposes a "one security baseline + N business templates" deployment model for conservatories, music institutions, and professional performing-arts organizations, supporting low-latency multimedia network-security scenarios such as remote rehearsal, VR holographic performance, and online ensemble classrooms.</li>
               </ul>
             </div>
             <figure class="publication-figure">
