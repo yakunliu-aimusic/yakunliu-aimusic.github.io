@@ -33,7 +33,7 @@ sections:
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
-              <p>Student Member of the IEEE Computer Society, Student Member of the China Computer Federation (CCF), and Member of the Shenyang Computer Federation (SCF). Yakun Liu has an interdisciplinary background in music performance and electroacoustic composition, with self-directed training in programming, deep learning, and audio plugin development. As first author, he has completed one arXiv preprint, two SSRN preprints, and two peer-reviewed journal articles, and has contributed as a core member to the implementation of a Ministry of Education industry-university-research project. His work integrates music creation, performance, model training, and audio plugin deployment, and he aims to bring this combined artistic intuition and engineering capability into doctoral-level research.</p>
+              <p>Student Member of the IEEE Computer Society, Student Member of the China Computer Federation (CCF), and Member of the Shenyang Computer Federation (SCF). Yakun Liu has an interdisciplinary background in music performance and electroacoustic composition, with self-directed training in programming, deep learning, and audio plugin development. As first author, he has completed 3 arXiv preprint, 2 SSRN preprints, and 2 peer-reviewed journal articles, and has contributed as a core member to the implementation of a Ministry of Education industry-university-research project. His work integrates music creation, performance, model training, and audio plugin deployment, and he aims to bring this combined artistic intuition and engineering capability into doctoral-level research.</p>
             </section>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
@@ -46,7 +46,7 @@ sections:
                   <h3>M.A. in Electronic Music Composition</h3>
                   <p>Shenyang Conservatory of Music</p>
                   <p>2024-09-01 – 2027-06-30</p>
-                  <p>Expected June 2027. GPA: 3.47/4.0.</p>
+                  <p>Expected June 2027. GPA: 3.48/4.0.</p>
                 </article>
                 <article>
                   <h3>B.A. in Pop Saxophone (Jazz Direction)</h3>
@@ -244,17 +244,14 @@ sections:
             </div>
             <figure class="publication-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">状态：预印本投稿中</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
+              <img src="/hydan.png" alt="Haydn The Lark machine representation preview">
             </figure>
           </article>
 
           <article id="pub-heterogeneous-network-security" class="publication-item project-text-only">
             <div class="publication-text">
               <p><strong>栾海、刘雅坤、金志宇（2026）。<em>异地双舞台演艺融合网络三层异构安全防护机制</em>。《计算机工程与应用》。</strong></p>
-              <ul>
-                <li>面向异地双舞台同步演出场景，针对校园网+5G异构融合组网中的链路劫持、控制指令注入、业务脚本篡改等多层攻击风险，提出兼顾低时延与高强度安全防护的全链路隔离防御体系。</li>
-                <li>构建业务层、控制层、传输层三层跨层联动纵深防御架构：业务层采用AES256-GCM/ChaCha20自适应双加密与秒级密钥轮换；控制层划分12个独立安全域并引入零信任最小权限模型；传输层采用RSA-2048+SHA256双重签名校验与原子业务单元管控。</li>
-                <li>搭建软硬件一体化可重构融合网络攻防实验平台，覆盖数据中心算力集群、5G专网、IP演播控制系统与微服务监控平台，并与4组主流基线方案进行对比测试。</li>
-                <li>实验结果显示，相比传统IPsec基线方案，端到端时延仅增加4.9ms，音视频同步偏差稳定≤6ms；链路劫持成功率降至3.4%，控制指令注入拦截率达97.2%，业务脚本篡改拦截率达98.5%。</li>
+              <ul>              
                 <li>面向音乐院校与专业文艺院团提出“1套安全基线+N类业务模板”的落地模式，可适配远程排练、VR全息演出、线上合奏课堂等低时延多媒体演艺网络安全场景。</li>
               </ul>
             </div>
