@@ -104,27 +104,31 @@ sections:
           <div class="cv-directory-column">
             <h3>Publications</h3>
             <ol>
-              <li><a href="#pub-gru-interactive-system">Role-Aware GRU Interactive Music Generation System</a></li>
-              <li><a href="#pub-chladnisonify">ChladniSonify</a></li>
-              <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence</a></li>
-              <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories</a></li>
-              <li><a href="#pub-vr-live-streaming">VR Live Streaming</a></li>
-              <li><a href="#pub-haydn-lark-machine-representation">海顿《云雀》机器表征研究</a></li>
-              <li><a href="#pub-heterogeneous-network-security">异构融合网络安全防护机制</a></li>
+              <li><a href="#pub-gru-interactive-system">Role-Aware GRU Interactive Music Generation System (Preprint)</a></li>
+              <li><a href="#pub-chladnisonify">ChladniSonify (Under Review)</a></li>
+              <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence (Under Review)</a></li>
+              <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories (Under Review)</a></li>
+              <li><a href="#pub-vr-live-streaming">VR Live Streaming (Published)</a></li>
+              <li><a href="#pub-haydn-lark-machine-representation">海顿《云雀》机器表征研究 (Preprint)</a></li>
+              <li><a href="#pub-heterogeneous-network-security">异构融合网络安全防护机制 (Journal)</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
             <h3>Project & Research Experience</h3>
             <ol>
-              <li><a href="#project-lk-jam">LK Jam Plugin(个人研究)</a></li>
-              <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin(个人研究)</a></li>
-              <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert(教育部产学研项目)</a></li>
-              <li><a href="#project-diejing-shengcheng">Layered Realms · Sonic Emergence(辽宁省教育厅项目)</a></li>
-              <li><a href="#project-ai-orchestration-global-folk">AI Intelligent Orchestration(辽宁省教育厅项目)</a></li>
-              <li><a href="#project-sonic-structuring">AI Electroacoustic Composition(沈阳音乐学院项目)</a></li>
+              <li><a href="#project-lk-jam">LK Jam Plugin (Independent)</a></li>
+              <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin (Independent)</a></li>
+              <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert (MOE)</a></li>
+              <li><a href="#project-diejing-shengcheng">Layered Realms · Sonic Emergence (Provincial)</a></li>
+              <li><a href="#project-ai-orchestration-global-folk">AI Intelligent Orchestration (Provincial)</a></li>
+              <li><a href="#project-sonic-structuring">AI Electroacoustic Composition (SYCM)</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
+            <h3>Academic Service</h3>
+            <ol>
+              <li><a href="#academic-service">IEEE Access Peer Review (WoS Verified)</a></li>
+            </ol>
             <h3>Portfolio</h3>
             <ol>
               <li><a href="#portfolio-content">Whale Fall · Layered Shadows</a></li>
@@ -387,6 +391,33 @@ sections:
     design:
       columns: '1'
       css_class: cv-text-section cv-left-layout projects-centered-layout
+
+  - block: markdown
+    id: academic-service
+    content:
+      title: "✦ Academic Service"
+      subtitle: Peer Review Service
+      text: |-
+        <section id="academic-service-content" class="academic-service-section" aria-label="Academic Service">
+          <article class="academic-service-item portfolio-feature-item">
+            <div class="portfolio-feature-text">
+              <h3>IEEE Access Peer Review Service</h3>
+              <p><strong>Journal:</strong> IEEE Access</p>
+              <p><strong>Manuscript ID:</strong> Access-2026-31740</p>
+              <p><strong>Paper Title:</strong> Adaptive Depth-Aware Real-Time Object Perception for Contextual Mobile Augmented Reality</p>
+              <p><strong>Review Period:</strong> 14 Jun 2026 – 14 Jul 2026</p>
+              <p><strong>Verification:</strong> Review record verified and archived on Web of Science (Clarivate).</p>
+              <p><strong>Web of Science Author Profile:</strong> <a href="https://www.webofscience.com/wos/author/record/OFO-5144-2025" target="_blank" rel="noopener noreferrer">OFO-5144-2025</a></p>
+            </div>
+            <figure class="portfolio-feature-figure">
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: WoS Verified</div><div class="publication-link-row"><span>Link:</span><a class="wos-link icon-only-link" href="https://www.webofscience.com/wos/author/record/OFO-5144-2025" target="_blank" rel="noopener noreferrer" aria-label="Web of Science"></a></div></div>
+              <img src="/Web-of-Science1.jpg" alt="Web of Science verified peer review record">
+            </figure>
+          </article>
+        </section>
+    design:
+      columns: '1'
+      css_class: cv-text-section cv-left-layout portfolio-section
 
   - block: markdown
     id: portfolio

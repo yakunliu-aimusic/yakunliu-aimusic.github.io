@@ -590,6 +590,10 @@
   transform: translateX(0.04rem);
 }
 
+.publication-link-row .wos-link::before {
+  content: "W";
+}
+
 .publication-link-row .icon-only-link:hover {
   color: rgb(29, 78, 216);
   border-color: rgba(29, 78, 216, 0.55);
@@ -704,13 +708,17 @@ html {
   min-width: 0;
 }
 
-.portfolio-item h3 {
+.portfolio-item h3,
+.academic-service-item h3 {
   margin-top: 0;
 }
 
 .portfolio-item p,
 .portfolio-item ol,
-.portfolio-item ul {
+.portfolio-item ul,
+.academic-service-item p,
+.academic-service-item ol,
+.academic-service-item ul {
   margin-bottom: 0.7rem;
 }
 
@@ -720,7 +728,7 @@ html {
   background: transparent;
 }
 
-.portfolio-item img {
+.portfolio-feature-figure img {
   display: block;
   width: 100%;
   max-height: 505px;
