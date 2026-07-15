@@ -242,7 +242,7 @@ sections:
                 <li>从古典音乐分析、电子声学映射与AI符号化生成之间建立逻辑闭环，为构建具备“社交属性”与“他者感知”的人机协同音乐系统提供理论基础。</li>
               </ul>
             </div>
-            <figure class="publication-figure">
+            <figure class="publication-figure media-large-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">状态：预印本投稿中</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
               <img src="/hydan.png" alt="Haydn The Lark machine representation preview">
             </figure>
@@ -406,7 +406,7 @@ sections:
               <p><strong>Verification:</strong> Review record verified and archived on Web of Science (Clarivate).</p>
               <p><strong>Web of Science Author Profile:</strong> <a href="https://www.webofscience.com/wos/author/record/OFO-5144-2025" target="_blank" rel="noopener noreferrer">OFO-5144-2025</a></p>
             </div>
-            <figure class="portfolio-feature-figure">
+            <figure class="portfolio-feature-figure media-large-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">Status: WoS Verified</div><div class="publication-link-row"><span>Link:</span><a class="wos-link icon-only-link" href="https://www.webofscience.com/wos/author/record/OFO-5144-2025" target="_blank" rel="noopener noreferrer" aria-label="Web of Science"></a></div></div>
               <img src="/Web-of-Science1.jpg" alt="Web of Science verified peer review record">
             </figure>
@@ -434,7 +434,7 @@ sections:
                 <li>Employs GRM Tools, Waves, Zynaptiq, and FabFilter VST effects to modulate, distort, and transform diverse sound materials into an evolving electroacoustic texture.</li>
               </ul>
             </div>
-            <figure class="portfolio-feature-figure">
+            <figure class="portfolio-feature-figure media-large-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Video</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
               <img src="/Whale-Fall-Layered-Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
             </figure>

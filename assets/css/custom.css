@@ -737,6 +737,17 @@ html {
   border-radius: 0;
 }
 
+.media-large-figure img {
+  width: 112%;
+  max-width: none;
+  max-height: 650px;
+  transform: translateX(-6%);
+}
+
+.publication-figure.media-large-figure img {
+  max-height: 650px;
+}
+
 .personal-signature p {
   font-size: 1.08rem;
   line-height: 1.9;
@@ -837,6 +848,12 @@ html {
   .publication-figure img,
   .portfolio-feature-figure img {
     max-height: none;
+  }
+
+  .media-large-figure img {
+    width: 100%;
+    max-width: 100%;
+    transform: none;
   }
 
   .cv-custom-hero {
