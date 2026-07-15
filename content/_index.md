@@ -109,17 +109,19 @@ sections:
               <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence</a></li>
               <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories</a></li>
               <li><a href="#pub-vr-live-streaming">VR Live Streaming</a></li>
+              <li><a href="#pub-haydn-lark-machine-representation">海顿《云雀》机器表征研究</a></li>
+              <li><a href="#pub-heterogeneous-network-security">异构融合网络安全防护机制</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
             <h3>Project & Research Experience</h3>
             <ol>
-              <li><a href="#project-lk-jam">LK Jam Plugin</a></li>
-              <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin</a></li>
-              <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert</a></li>
-              <li><a href="#project-diejing-shengcheng">Layered Realms · Sonic Emergence</a></li>
-              <li><a href="#project-ai-orchestration-global-folk">AI Intelligent Orchestration</a></li>
-              <li><a href="#project-sonic-structuring">AI Electroacoustic Composition</a></li>
+              <li><a href="#project-lk-jam">LK Jam Plugin(个人研究)</a></li>
+              <li><a href="#project-vision-audio-mapping">VisionAudioMapping Plugin(个人研究)</a></li>
+              <li><a href="#project-vr-dual-stage-concert">VR Dual-Stage Concert(教育部产学研项目)</a></li>
+              <li><a href="#project-diejing-shengcheng">Layered Realms · Sonic Emergence(辽宁省教育厅项目)</a></li>
+              <li><a href="#project-ai-orchestration-global-folk">AI Intelligent Orchestration(辽宁省教育厅项目)</a></li>
+              <li><a href="#project-sonic-structuring">AI Electroacoustic Composition(沈阳音乐学院项目)</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
@@ -222,6 +224,38 @@ sections:
                 <source src="/Research%20on%20VR%20Live%20Streaming%20Interaction.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
+            </figure>
+          </article>
+
+          <article id="pub-haydn-lark-machine-representation" class="publication-item project-text-only">
+            <div class="publication-text">
+              <p><strong>刘雅坤、金志宇、栾海、刘东、李晓楠（2026）。<em>从织体对位到特征编码：融合电声分析的海顿《云雀》多维机器表征研究</em>。ArXiv预印本。</strong></p>
+              <p><strong>英文标题：</strong><em>From Textural Counterpoint to Feature Encoding: A Multi-Dimensional Machine Representation Study of Haydn's "The Lark" Integrating Electroacoustic Analysis</em></p>
+              <ul>
+                <li>以海顿D大调弦乐四重奏《云雀》（作品64号第5首）为研究对象，围绕室内乐中“声部角色分配+动态交互”的内在逻辑，讨论其对人机协同作曲范式的启发价值。</li>
+                <li>提出“古典形态定性分析—电声定量测量—机器表征重构”的跨学科研究路径，通过听觉分析拆解第一乐章主旋律对位织体与底层律动。</li>
+                <li>借助DAW频谱与动态特征分析工具，将主观听觉感知转化为可量化的物理参数，并提出基于事件时间戳与角色感知编码的底层特征提取方案。</li>
+                <li>从古典音乐分析、电子声学映射与AI符号化生成之间建立逻辑闭环，为构建具备“社交属性”与“他者感知”的人机协同音乐系统提供理论基础。</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links publication-links-stacked"><div class="publication-status">状态：预印本投稿中</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
+            </figure>
+          </article>
+
+          <article id="pub-heterogeneous-network-security" class="publication-item project-text-only">
+            <div class="publication-text">
+              <p><strong>栾海、刘雅坤、金志宇（2026）。<em>异地双舞台演艺融合网络三层异构安全防护机制</em>。《计算机工程与应用》。</strong></p>
+              <ul>
+                <li>面向异地双舞台同步演出场景，针对校园网+5G异构融合组网中的链路劫持、控制指令注入、业务脚本篡改等多层攻击风险，提出兼顾低时延与高强度安全防护的全链路隔离防御体系。</li>
+                <li>构建业务层、控制层、传输层三层跨层联动纵深防御架构：业务层采用AES256-GCM/ChaCha20自适应双加密与秒级密钥轮换；控制层划分12个独立安全域并引入零信任最小权限模型；传输层采用RSA-2048+SHA256双重签名校验与原子业务单元管控。</li>
+                <li>搭建软硬件一体化可重构融合网络攻防实验平台，覆盖数据中心算力集群、5G专网、IP演播控制系统与微服务监控平台，并与4组主流基线方案进行对比测试。</li>
+                <li>实验结果显示，相比传统IPsec基线方案，端到端时延仅增加4.9ms，音视频同步偏差稳定≤6ms；链路劫持成功率降至3.4%，控制指令注入拦截率达97.2%，业务脚本篡改拦截率达98.5%。</li>
+                <li>面向音乐院校与专业文艺院团提出“1套安全基线+N类业务模板”的落地模式，可适配远程排练、VR全息演出、线上合奏课堂等低时延多媒体演艺网络安全场景。</li>
+              </ul>
+            </div>
+            <figure class="publication-figure">
+              <div class="publication-links publication-links-stacked"><div class="publication-status">状态：期刊论文整理中</div></div>
             </figure>
           </article>
         </div>
