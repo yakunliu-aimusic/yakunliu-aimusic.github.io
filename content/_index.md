@@ -33,7 +33,7 @@ sections:
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
-              <p>Student Member of the IEEE Computer Society, Student Member of the China Computer Federation (CCF), and Member of the Shenyang Computer Federation (SCF). Yakun Liu has an interdisciplinary background in music performance and electroacoustic composition, with self-directed training in programming, deep learning, and audio plugin development. As first author, he has completed 3 arXiv preprint, 2 SSRN preprints, and 2 peer-reviewed journal articles, and has contributed as a core member to the implementation of a Ministry of Education industry-university-research project. His work integrates music creation, performance, model training, and audio plugin deployment, and he aims to bring this combined artistic intuition and engineering capability into doctoral-level research.</p>
+              <p>An interdisciplinary researcher bridging contemporary music performance, electroacoustic composition, and computer science. Holding student memberships in the IEEE Computer Society and CCF, alongside a formal membership in the Shenyang Computer Federation (SCF), I specialize in the intersection of real-time AI music generation, edge-deployed audio plugins (C++/JUCE), and cross-modal interactive systems. As a verified peer reviewer for IEEE Access, backed by multiple academic publications and extensive experience spearheading Ministry of Education industry-university research programs, I aim to integrate profound artistic intuition with robust engineering architecture in doctoral-level research.</p>
             </section>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
@@ -434,7 +434,7 @@ sections:
                 <li>Employs GRM Tools, Waves, Zynaptiq, and FabFilter VST effects to modulate, distort, and transform diverse sound materials into an evolving electroacoustic texture.</li>
               </ul>
             </div>
-            <figure class="portfolio-feature-figure media-large-figure">
+            <figure class="portfolio-feature-figure">
               <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Video</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
               <img src="/Whale-Fall-Layered-Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
             </figure>
@@ -450,7 +450,6 @@ sections:
       text: |-
         <section class="personal-signature" aria-label="Personal Signature">
           <p>What is regrettable is that art schools do not teach backpropagation, while computer science departments do not analyze Chopin's Nocturnes either.</p>
-          <p class="signature-en">Between artistic intuition and computational reasoning lies a wider territory still waiting to be explored.</p>
           <p style="margin-top:1rem;">A broader intellectual landscape awaits those willing to work at the boundary of sound, systems, and learning.</p>
           <p class="signature-en">For those who embrace transformation, the task is to contend with the present while imagining what remains possible.</p>
         </section>
