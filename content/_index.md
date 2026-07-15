@@ -33,7 +33,7 @@ sections:
             </div>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4.5h14a1.5 1.5 0 0 1 1.5 1.5v12A1.5 1.5 0 0 1 19 19.5H5A1.5 1.5 0 0 1 3.5 18V6A1.5 1.5 0 0 1 5 4.5Zm1.5 4h11v-1h-11v1Zm0 4h11v-1h-11v1Zm0 4h7v-1h-7v1Z" fill="currentColor"/></svg></span>Personal Summary</h2>
-              <p>An interdisciplinary researcher bridging contemporary music performance, electroacoustic composition, and computer science. Holding student memberships in the IEEE Computer Society and CCF, alongside a formal membership in the Shenyang Computer Federation (SCF), I specialize in the intersection of real-time AI music generation, edge-deployed audio plugins (C++/JUCE), and cross-modal interactive systems. As a verified peer reviewer for IEEE Access, backed by multiple academic publications and extensive experience spearheading Ministry of Education industry-university research programs, I aim to integrate profound artistic intuition with robust engineering architecture in doctoral-level research.</p>
+              <p>An interdisciplinary researcher bridging contemporary music performance, electroacoustic composition, and computer science. Holding student memberships in the IEEE Computer Society and CCF, alongside a formal membership in the Shenyang Computer Federation (SCF), I specialize in the intersection of real-time AI music generation, edge-deployed audio plugins (C++/JUCE), and cross-modal interactive systems. As a verified peer reviewer for IEEE Access, backed by multiple academic publications and extensive experience as a core researcher in Ministry of Education industry-university research programs, I aim to integrate profound artistic intuition with robust engineering architecture in doctoral-level research.</p>
             </section>
             <section>
               <h2><span class="cv-section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4.5 5.5h8v2h-2.4a10.5 10.5 0 0 1-1.7 3.5c.7.58 1.49 1.08 2.36 1.5l-.76 1.35a12.2 12.2 0 0 1-2.55-1.7 12.9 12.9 0 0 1-3.15 2.15l-.8-1.35a10.6 10.6 0 0 0 2.85-1.85A9.98 9.98 0 0 1 5.1 8.8l1.36-.55c.28.63.64 1.22 1.06 1.76.45-.62.8-1.3 1.06-2.02H4.5v-2.5Zm10.7 13h-1.75l3.15-8h1.55l3.15 8h-1.8l-.65-1.8h-3l-.65 1.8Zm1.15-3.25h2l-1-2.75-1 2.75Z" fill="currentColor"/></svg></span>Languages</h2>
@@ -109,8 +109,8 @@ sections:
               <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence (Under Review)</a></li>
               <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories (Under Review)</a></li>
               <li><a href="#pub-vr-live-streaming">VR Live Streaming (Published)</a></li>
-              <li><a href="#pub-haydn-lark-machine-representation">海顿《云雀》机器表征研究 (Preprint)</a></li>
-              <li><a href="#pub-heterogeneous-network-security">异构融合网络安全防护机制 (Journal)</a></li>
+              <li><a href="#pub-haydn-lark-machine-representation">Haydn's "The Lark" Machine Representation (Preprint)</a></li>
+              <li><a href="#pub-heterogeneous-network-security">Heterogeneous Network Security Mechanism (Journal)</a></li>
             </ol>
           </div>
           <div class="cv-directory-column">
@@ -150,9 +150,9 @@ sections:
             <div class="publication-text">
               <p><strong>Liu, Y., Jin, Z., & Luan, H. (2026). <em>LK Jam: System Architecture and Implementation of a Real-Time Human-AI Interactive Music Generation System Using Role-Aware GRU</em>.</strong></p>
               <ul>
-                <li>Proposed a sparse event-based three-dimensional encoding scheme with role and phrase identifiers, combined with a lightweight GRU architecture to address weak interaction modeling and high inference latency in AI music systems.</li>
-                <li>Designed a three-stage progressive training strategy that incrementally teaches harmonic structure, jazz syntax, and human-AI call-and-response interaction.</li>
-                <li>Implemented a JUCE and RTNeural-based VST3 plugin using a lock-free three-thread architecture, enabling allocation-free hard real-time inference and reducing audio dropouts in DAW environments.</li>
+                <li>Proposed a timestamp-driven sparse-event 3D encoding to replace rigid temporal grids, integrating role & phrase embeddings with a lightweight GRU backbone.</li>
+                <li>Designed a three-stage progressive training strategy that incrementally teaches harmonic structure, jazz syntax, and dynamic human-AI call-and-response behavior.</li>
+                <li>Implemented a JUCE and RTNeural-based VST3 plugin using a lock-free three-thread architecture, enabling allocation-free, hard real-time inference that guarantees low-latency operation and eliminates audio dropouts in DAW environments.</li>
               </ul>
             </div>
             <figure class="publication-figure">
@@ -233,30 +233,33 @@ sections:
 
           <article id="pub-haydn-lark-machine-representation" class="publication-item project-text-only">
             <div class="publication-text">
-              <p><strong>刘雅坤、金志宇、栾海、刘东、李晓楠（2026）。<em>从织体对位到特征编码：融合电声分析的海顿《云雀》多维机器表征研究</em>。ArXiv预印本。</strong></p>
-              <p><strong>英文标题：</strong><em>From Textural Counterpoint to Feature Encoding: A Multi-Dimensional Machine Representation Study of Haydn's "The Lark" Integrating Electroacoustic Analysis</em></p>
+              <p><strong>Liu, Y., Jin, Z., Luan, H., Liu, D., & Li, X. (2026). <em>From Textural Counterpoint to Feature Encoding: A Multi-Dimensional Machine Representation Study of Haydn's "The Lark" Integrating Electroacoustic Analysis</em>. ArXiv preprint.</strong></p>
               <ul>
-                <li>以海顿D大调弦乐四重奏《云雀》（作品64号第5首）为研究对象，围绕室内乐中“声部角色分配+动态交互”的内在逻辑，讨论其对人机协同作曲范式的启发价值。</li>
-                <li>提出“古典形态定性分析—电声定量测量—机器表征重构”的跨学科研究路径，通过听觉分析拆解第一乐章主旋律对位织体与底层律动。</li>
-                <li>借助DAW频谱与动态特征分析工具，将主观听觉感知转化为可量化的物理参数，并提出基于事件时间戳与角色感知编码的底层特征提取方案。</li>
-                <li>从古典音乐分析、电子声学映射与AI符号化生成之间建立逻辑闭环，为构建具备“社交属性”与“他者感知”的人机协同音乐系统提供理论基础。</li>
+                <li>Investigates Haydn's String Quartet in D major, Op. 64 No. 5, "The Lark," as a chamber-music model of voice-role allocation and dynamic interaction, highlighting its relevance to human-AI collaborative composition.</li>
+                <li>Develops a research framework that connects qualitative classical-form analysis, electroacoustic quantitative measurement, and machine-representation reconstruction.</li>
+                <li>Uses DAW-based spectral and dynamic analysis to translate perceptual listening observations into measurable acoustic features, replacing rigid quantization grids with event-based timestamps and role-aware encoding.</li>
+                <li>Bridges classical music analysis, electroacoustic feature mapping, and symbolic AI generation, providing a theoretical basis for interactive music systems with role awareness and other-oriented musical response.</li>
               </ul>
             </div>
             <figure class="publication-figure media-large-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">状态：预印本投稿中</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Preprint submitted</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
               <img src="/hydan.png" alt="Haydn The Lark machine representation preview">
             </figure>
           </article>
 
           <article id="pub-heterogeneous-network-security" class="publication-item project-text-only">
             <div class="publication-text">
-              <p><strong>栾海、刘雅坤、金志宇（2026）。<em>异地双舞台演艺融合网络三层异构安全防护机制</em>。《计算机工程与应用》。</strong></p>
-              <ul>              
-                <li>面向音乐院校与专业文艺院团提出“1套安全基线+N类业务模板”的落地模式，可适配远程排练、VR全息演出、线上合奏课堂等低时延多媒体演艺网络安全场景。</li>
+              <p><strong>Luan, H., Liu, Y., & Jin, Z. (2026). <em>Three-Layer Heterogeneous Security Protection Mechanism for Cross-Regional Dual-Stage Performing-Arts Converged Networks</em>. Computer Engineering and Applications.</strong></p>
+              <ul>
+                <li>Addresses security risks in campus-network and 5G heterogeneous converged networks for cross-regional dual-stage performances, including link hijacking, control-command injection, and performance-script tampering.</li>
+                <li>Proposes a cross-layer defense-in-depth architecture spanning the service, control, and transport layers, coordinated by a unified security-control platform.</li>
+                <li>Combines adaptive AES256-GCM/ChaCha20 encryption, second-level key rotation, zero-trust security-domain isolation, temporal-command validation, RSA-2048 plus SHA256 signature verification, and fine-grained atomic service-unit access control.</li>
+                <li>Experimental results indicate that the mechanism keeps audio-video synchronization deviation within 6 ms, reduces link-hijacking success rate to 3.4%, and achieves 97.2% control-command injection interception and 98.5% business-script tampering interception.</li>
+                <li>Provides a deployable security baseline for remote rehearsal, VR holographic performance, online ensemble classrooms, and other low-latency multimedia performing-arts network scenarios.</li>
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">状态：期刊论文整理中</div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Journal paper in preparation</div></div>
             </figure>
           </article>
         </div>
