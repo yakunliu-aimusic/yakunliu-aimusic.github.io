@@ -133,6 +133,11 @@ sections:
             <ol>
               <li><a href="#portfolio-content">Whale Fall · Layered Shadows</a></li>
             </ol>
+            <h3>Software Copyright</h3>
+            <ol>
+              <li><a href="#software-copyright">LK Jam Plugin (Under Review)</a></li>
+              <li><a href="#software-copyright">VisionAudioMapping Plugin (Under Review)</a></li>
+            </ol>
           </div>
         </div>
     design:
