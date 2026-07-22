@@ -46,7 +46,7 @@ sections:
                   <h3>M.A. in Electronic Music Composition</h3>
                   <p>Shenyang Conservatory of Music</p>
                   <p>2024-09-01 – 2027-06-30</p>
-                  <p>Expected June 2027. GPA: 3.48/4.0.</p>
+                  <p>Expected June 2027. GPA: 3.55/4.0.</p>
                 </article>
                 <article>
                   <h3>B.A. in Pop Saxophone (Jazz Direction)</h3>
