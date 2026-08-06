@@ -104,12 +104,12 @@ sections:
           <div class="cv-directory-column">
             <h3>Publications</h3>
             <ol>
-              <li><a href="#pub-gru-interactive-system">Role-Aware GRU Interactive Music Generation System (Preprint)</a></li>
+              <li><a href="#pub-gru-interactive-system">Role-Aware GRU Interactive Music Generation System (Preprint; SISMT 2026)</a></li>
               <li><a href="#pub-chladnisonify">ChladniSonify (Under Review)</a></li>
               <li><a href="#pub-rules-probability-emergence">Rules, Probability, and Emergence (Under Review)</a></li>
               <li><a href="#pub-dual-trajectories-tonal-transformation">Dual Trajectories (Under Review)</a></li>
               <li><a href="#pub-vr-live-streaming">VR Live Streaming (Published)</a></li>
-              <li><a href="#pub-haydn-lark-machine-representation">Haydn's "The Lark" Machine Representation (Preprint)</a></li>
+              <li><a href="#pub-haydn-lark-machine-representation">Haydn's "The Lark" Machine Representation (Preprint; SISMT 2026)</a></li>
               <li><a href="#pub-heterogeneous-network-security">Heterogeneous Network Security Mechanism (Journal)</a></li>
             </ol>
           </div>
@@ -161,7 +161,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2606.21018" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: ArXiv, Open Source; Poster accepted at SISMT 2026</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2606.21018" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a><a class="github-link icon-only-link" href="https://github.com/yakunliu-aimusic/LK_Jam" target="_blank" rel="noopener noreferrer" aria-label="GitHub"></a></div></div>
               <video autoplay loop muted playsinline style="width: 100%; max-height: 505px; object-fit: contain; border-radius: 0; border: 0; background: transparent;">
                 <source src="/LK_Jam.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -245,7 +245,7 @@ sections:
               </ul>
             </div>
             <figure class="publication-figure media-large-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Preprint submitted</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Preprint; Poster accepted at SISMT 2026</div><div class="publication-link-row"><span>Link:</span><a class="paper-link icon-only-link" href="https://arxiv.org/abs/2607.05902" target="_blank" rel="noopener noreferrer" aria-label="Paper"></a></div></div>
               <img src="/hydan.png" alt="Haydn The Lark machine representation preview">
             </figure>
           </article>
