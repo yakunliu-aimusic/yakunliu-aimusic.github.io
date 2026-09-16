@@ -1,0 +1,18 @@
+# Navigation Links (Chinese)
+
+main:
+  - name: 关于
+    url: /zh/#about
+    weight: 10
+  - name: 研究兴趣
+    url: /zh/#interests
+    weight: 20
+  - name: 论文发表
+    url: /zh/#publications
+    weight: 30
+  - name: 项目经历
+    url: /zh/#projects
+    weight: 40
+  - name: 技能
+    url: /zh/#skills
+    weight: 50

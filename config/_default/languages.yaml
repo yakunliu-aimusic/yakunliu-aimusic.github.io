@@ -1,12 +1,26 @@
 # Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://docs.hugoblox.com/reference/language/
+# Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  label: English
+  contentDir: content/en
+  weight: 1
+  title: Yakun Liu
+  params:
+    description: Yakun Liu is an M.A. student in Electronic Music Composition at Shenyang Conservatory of Music, focusing on AI music generation, real-time human-computer interaction systems, audio-visual cross-modal interaction, and new media art.
 
-# Chinese translation is intentionally not enabled yet.
-# The visible language switcher currently acts as a non-navigating UI placeholder.
+zh:
+  locale: zh-Hans
+  label: 中文
+  contentDir: content/zh
+  weight: 2
+  title: 刘雅坤
+  params:
+    description: 刘雅坤，沈阳音乐学院电子音乐作曲方向硕士研究生，研究方向为 AI 音乐生成、实时人机交互系统、视听跨模态交互与新媒体艺术。
+    hugoblox:
+      identity:
+        name: 刘雅坤
+        organization: 沈阳音乐学院
+        tagline: AI 音乐 · 电子音乐作曲 · 新媒体艺术
+        description: 刘雅坤，沈阳音乐学院电子音乐作曲方向硕士研究生，研究方向为 AI 音乐生成、实时人机交互系统、视听跨模态交互与新媒体艺术。
