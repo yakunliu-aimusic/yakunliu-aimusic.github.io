@@ -87,6 +87,7 @@ sections:
           <article class="cv-column-card">
             <h2><span class="cv-heading-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8 14.6 8l5.7.83-4.15 4.03.98 5.7L12 15.88l-5.1 2.68.97-5.7L3.75 8.83 9.4 8 12 2.8Z" fill="currentColor"/></svg></span>Honors</h2>
             <ul>
+              <li>Group B Finalist, AI Song Contest 2026, Hangzhou International Electronic Music Competition — Whale Fall · Layered Shadows</li>
               <li>National Encouragement Scholarship (2020, 2021, 2022)</li>
               <li>First-class Scholarship (2022)</li>
             </ul>
@@ -131,7 +132,7 @@ sections:
             </ol>
             <h3>Portfolio</h3>
             <ol>
-              <li><a href="#portfolio-content">Whale Fall · Layered Shadows</a></li>
+              <li><a href="#portfolio-content">Whale Fall · Layered Shadows (Group B Finalist, AI Song Contest 2026)</a></li>
             </ol>
             <h3>Software Copyright</h3>
             <ol>
@@ -430,6 +431,7 @@ sections:
               <h3>Whale Fall · Layered Shadows</h3>
               <p><strong>Composition / Saxophone Performance / Plugin Development:</strong> Yakun Liu</p>
               <p><strong>Type:</strong> Real-time Interactive Work</p>
+              <p><strong>Award:</strong> Selected as a Group B finalist at AI Song Contest 2026, Hangzhou International Electronic Music Competition.</p>
               <p><strong>Concept:</strong></p>
               <ul>
                 <li>Uses an embedded AI plugin as the core medium to build a cross-modal mapping mechanism in which camera-captured Chladni patterns are analyzed in real time and translated into frequency-related sonic responses for interactive audiovisual expression.</li>
@@ -437,7 +439,7 @@ sections:
               </ul>
             </div>
             <figure class="portfolio-feature-figure">
-              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Video</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
+              <div class="publication-links publication-links-stacked"><div class="publication-status">Status: Group B Finalist</div><div class="publication-link-row"><span>Link:</span><a class="youtube-link icon-only-link" href="https://www.youtube.com/watch?v=NMNzyp__wWI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"></a></div></div>
               <img src="/Whale-Fall-Layered-Shadows.jpeg" alt="Whale Fall · Layered Shadows preview">
             </figure>
           </article>
